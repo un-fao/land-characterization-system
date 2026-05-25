@@ -1,0 +1,23 @@
+/* Grey background for self-comparison rows */
+.p-datatable .self-ref-row > td {
+  background-color: #e0e0e0 !important;
+}
+
+.p-column-header-content {
+  align-content: center;
+}
+
+table {
+    font-size: xx-small;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+  
+  tr:hover {background-color: #D6EEEE;
+}

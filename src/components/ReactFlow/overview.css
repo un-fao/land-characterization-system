@@ -1,0 +1,91 @@
+.react-flow__node-custom, .react-flow__node-LC_Legend, .react-flow__node-LC_ClassCharacteristic, .react-flow__node-LC_Vegetation, .react-flow__node-LC_Abiotic {
+    font-size: 10px;
+    width: 180px;
+    background: #f5f5f6;
+    color: #222;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 15%), 0 2px 4px -1px rgb(0 0 0 / 8%);
+    border-radius: 2px;
+    border: 1px solid #000;
+}
+
+.react-flow__node-custom .react-flow__handleR {
+    top: 24px;
+    right: -15px;
+    width: 6px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #778899;
+}
+
+.react-flow__node-custom .react-flow__handleL {
+    top: 24px;
+    left: -15px;
+    width: 6px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #778899;
+}
+
+.react-flow__node.circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.react-flow__node.annotation {
+    border-radius: 0;
+    text-align: left;
+    background: white;
+    border: none;
+    line-height: 1.4;
+    width: 225px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 15%), 0 2px 4px -1px rgb(0 0 0 / 8%);
+}
+
+.react-flow__node.annotation .react-flow__handle {
+    display: none;
+}
+
+.custom-node__header {
+    background-color: #ddd;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.vegetation-node__header {
+    color: white;
+    background-color: green;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.abiotic-node__header {
+    color: white;
+    background-color: violet;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.custom-node__body {
+    padding: 10px;
+}
+
+.element-node__body {
+    background-color: white;
+    padding: 10px;
+}
+
+.custom-node__select {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.custom-node__select select {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 10px;
+}

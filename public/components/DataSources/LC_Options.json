@@ -1,0 +1,2446 @@
+{
+    "LC_Options": [
+    {
+        "option_id": 33,
+        "option_name": "artificiality_types",
+        "option_label": "Artificiality",
+        "option_description": "Artificiality",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "artificial",
+                "label": "Artificial",
+                "id": "33-178"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "natural",
+                "label": "Natural",
+                "id": "33-179"
+            }
+        ]
+    },
+    {
+        "option_id": 43,
+        "option_name": "Boolean",
+        "option_label": "True or False",
+        "option_description": "True or False",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "true",
+                "label": "true",
+                "id": "43-207"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "false",
+                "label": "false",
+                "id": "43-208"
+            }
+        ]
+    },
+    {
+        "option_id": 5,
+        "option_name": "climate_types",
+        "option_label": "Climate Type",
+        "option_description": "Climate Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Af: Tropical rainforest",
+                "label": "Af: Tropical rainforest",
+                "id": "5-250"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Am: Tropical monsoon",
+                "label": "Am: Tropical monsoon",
+                "id": "5-251"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Aw: Tropical savanna (dry season in winter)",
+                "label": "Aw: Tropical savanna (dry season in winter)",
+                "id": "5-252"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "As: Tropical savanna (dry season in summer)",
+                "label": "As: Tropical savanna (dry season in summer)",
+                "id": "5-253"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "BWh: Hot desert ",
+                "label": "BWh: Hot desert ",
+                "id": "5-254"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "BWk: Cold desert",
+                "label": "BWk: Cold desert",
+                "id": "5-255"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "BSh: Hot semi-arid",
+                "label": "BSh: Hot semi-arid",
+                "id": "5-256"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "BSk: Cold semi-arid ",
+                "label": "BSk: Cold semi-arid ",
+                "id": "5-257"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Cfa: Humid subtropical ",
+                "label": "Cfa: Humid subtropical ",
+                "id": "5-258"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Cfb: Temperate oceanic",
+                "label": "Cfb: Temperate oceanic",
+                "id": "5-259"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Cfc: Subpolar oceanic ",
+                "label": "Cfc: Subpolar oceanic ",
+                "id": "5-260"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Csa: Mediterranean ",
+                "label": "Csa: Mediterranean ",
+                "id": "5-261"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Csb: Warm-summer Mediterranean ",
+                "label": "Csb: Warm-summer Mediterranean ",
+                "id": "5-262"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Cwa: Monsoon-influenced humid subtropical",
+                "label": "Cwa: Monsoon-influenced humid subtropical",
+                "id": "5-263"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Cwb: Subtropical highland ",
+                "label": "Cwb: Subtropical highland ",
+                "id": "5-264"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dfa: Hot-summer humid continental (hot summers, no dry season)",
+                "label": "Dfa: Hot-summer humid continental (hot summers, no dry season)",
+                "id": "5-265"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dfb: Warm-summer humid continental (warm summers, no dry season)",
+                "label": "Dfb: Warm-summer humid continental (warm summers, no dry season)",
+                "id": "5-266"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dfc: Subarctic (short cool summers, no dry season)",
+                "label": "Dfc: Subarctic (short cool summers, no dry season)",
+                "id": "5-267"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dfd: Extremely cold subarctic (severely cold winters)",
+                "label": "Dfd: Extremely cold subarctic (severely cold winters)",
+                "id": "5-268"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dwa: Hot-summer humid continental (dry winters)",
+                "label": "Dwa: Hot-summer humid continental (dry winters)",
+                "id": "5-269"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dwb: Warm-summer humid continental (dry winters)",
+                "label": "Dwb: Warm-summer humid continental (dry winters)",
+                "id": "5-270"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dwc: Subarctic (dry winters)",
+                "label": "Dwc: Subarctic (dry winters)",
+                "id": "5-271"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dwd: Extremely cold subarctic (dry winters)",
+                "label": "Dwd: Extremely cold subarctic (dry winters)",
+                "id": "5-272"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dsa: Hot summer Mediterranean continental",
+                "label": "Dsa: Hot summer Mediterranean continental",
+                "id": "5-273"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dsb: Warm summer Mediterranean continental",
+                "label": "Dsb: Warm summer Mediterranean continental",
+                "id": "5-274"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dsc: Cool summer Mediterranean continental",
+                "label": "Dsc: Cool summer Mediterranean continental",
+                "id": "5-275"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dsd: Extremely cold winter Mediterranean continental ",
+                "label": "Dsd: Extremely cold winter Mediterranean continental ",
+                "id": "5-276"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "ET: Tundra ",
+                "label": "ET: Tundra ",
+                "id": "5-277"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "EF: Ice cap ",
+                "label": "EF: Ice cap ",
+                "id": "5-278"
+            }
+        ]
+    },
+    {
+        "option_id": 45,
+        "option_name": "coarse_mineral_fragment_types",
+        "option_label": "Coarse Mineral Fragment Type",
+        "option_description": "Coarse Mineral Fragment Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "gravel",
+                "label": "Gravel",
+                "id": "45-211"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "stone",
+                "label": "Stone",
+                "id": "45-212"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "boulder",
+                "label": "Boulder",
+                "id": "45-213"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "mixed",
+                "label": "Mixed",
+                "id": "45-214"
+            }
+        ]
+    },
+    {
+        "option_id": 39,
+        "option_name": "construction_statuses",
+        "option_label": "Construction Status",
+        "option_description": "Construction Statuses",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "finished",
+                "label": "Finished",
+                "id": "39-198"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "inProgress",
+                "label": "In Progress",
+                "id": "39-199"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "abandoned",
+                "label": "Abandoned",
+                "id": "39-200"
+            }
+        ]
+    },
+    {
+        "option_id": 55,
+        "option_name": "construction_uses",
+        "option_label": "Construction Use",
+        "option_description": "Construction Uses",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Agricultural",
+                "label": "Agricultural",
+                "id": "55-245"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Residential",
+                "label": "Residential",
+                "id": "55-246"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Commercial",
+                "label": "Commercial",
+                "id": "55-247"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Industrial",
+                "label": "Industrial",
+                "id": "55-248"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Utlility",
+                "label": "Utility",
+                "id": "55-249"
+            }
+        ]
+    },
+    {
+        "option_id": 9,
+        "option_name": "directions",
+        "option_label": "Directions",
+        "option_description": "Directions",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "North",
+                "label": "North",
+                "id": "9-52"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "East",
+                "label": "East",
+                "id": "9-53"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "West",
+                "label": "West",
+                "id": "9-54"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "South",
+                "label": "South",
+                "id": "9-55"
+            }
+        ]
+    },
+    {
+        "option_id": 41,
+        "option_name": "dump_site_types",
+        "option_label": "Dump Site Type",
+        "option_description": "Dump Site Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "wasteDump",
+                "label": "Waste Dump",
+                "id": "41-204"
+            }
+        ]
+    },
+    {
+        "option_id": 46,
+        "option_name": "duneTypes",
+        "option_label": "Dune Type",
+        "option_description": "Dune Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "barchan",
+                "label": "Barchan",
+                "id": "46-215"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "parabolic",
+                "label": "Parabolic",
+                "id": "46-216"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "longitudinal",
+                "label": "Longitudinal",
+                "id": "46-217"
+            }
+        ]
+    },
+    {
+        "option_id": 15,
+        "option_name": "element_horizontal_spreading_type",
+        "option_label": "Element Horizontal Spreading Type",
+        "option_description": "Element Horizontal Spreading Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "clusters",
+                "label": "Clusters",
+                "id": "15-87"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "regularRowMultipleElement",
+                "label": "Regular Row Multiple Element",
+                "id": "15-88"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "regularRowsMultipleElement",
+                "label": "Regular Rows General",
+                "id": "15-89"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "regularRowsSingleElement",
+                "label": "Regular Rows Single Element",
+                "id": "15-90"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "unevenlySpread",
+                "label": "Unevenly Spread",
+                "id": "15-91"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "other",
+                "label": "Other",
+                "id": "15-168"
+            }
+        ]
+    },
+    {
+        "option_id": 1,
+        "option_name": "element_presence_types",
+        "option_label": "Element Presence Type",
+        "option_description": "Element Presence Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "fixed",
+                "label": "Fixed",
+                "id": "1-3"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "exclusive",
+                "label": "Exclusive",
+                "id": "1-5"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "conditionalTemporal",
+                "label": "Conditional Temporal",
+                "id": "1-2"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "precluded",
+                "label": "Precluded",
+                "id": "1-6"
+            }
+        ]
+    },
+    {
+        "option_id": 11,
+        "option_name": "erosion_types",
+        "option_label": "Erosion Type",
+        "option_description": "Erosion Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "waterErosionSheet",
+                "label": "Water Erosion Sheet",
+                "id": "11-61"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "waterErosionRill",
+                "label": "Water Erosion Rill",
+                "id": "11-62"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "waterErosionGully",
+                "label": "Water Erosion Gully",
+                "id": "11-63"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "gravityErosion",
+                "label": "Gravity Erosion",
+                "id": "11-64"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "iceErosion",
+                "label": "Ice Erosion",
+                "id": "11-65"
+            }
+        ]
+    },
+    {
+        "option_id": 42,
+        "option_name": "extraction_types",
+        "option_label": "Extraction Type",
+        "option_description": "Extraction Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "surface",
+                "label": "Surface",
+                "id": "42-205"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "subsurface",
+                "label": "Subsurface",
+                "id": "42-206"
+            }
+        ]
+    },
+    {
+        "option_id": 18,
+        "option_name": "float_status",
+        "option_label": "Floating Status",
+        "option_description": "Floating Status",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "floating",
+                "label": "Floating",
+                "id": "18-94"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "submerged",
+                "label": "Submerged",
+                "id": "18-95"
+            }
+        ]
+    },
+    {
+        "option_id": 38,
+        "option_name": "floating_ice_types",
+        "option_label": "Floating Ice Type",
+        "option_description": "Floating Ice Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "lakeIce",
+                "label": "Lake Ice",
+                "id": "38-193"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "riverIce",
+                "label": "River Ice",
+                "id": "38-194"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "seaIce",
+                "label": "Sea Ice",
+                "id": "38-195"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "fastSeaIce",
+                "label": "Fast Sea Ice",
+                "id": "38-196"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "driftIce",
+                "label": "Drift Ice",
+                "id": "38-197"
+            }
+        ]
+    },
+    {
+        "option_id": 8,
+        "option_name": "geo_aspect_types",
+        "option_label": "Geographical Aspect Type",
+        "option_description": "Geographical Aspect Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Bay",
+                "label": "Bay",
+                "id": "8-45"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Beach",
+                "label": "Beach",
+                "id": "8-46"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Estuary",
+                "label": "Estuary",
+                "id": "8-47"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Shore",
+                "label": "Shore",
+                "id": "8-48"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Urban-Periurban",
+                "label": "Urban-Periurban",
+                "id": "8-49"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Sabka",
+                "label": "Sabka",
+                "id": "8-50"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Wady",
+                "label": "Wady",
+                "id": "8-51"
+            }
+        ]
+    },
+    {
+        "option_id": 50,
+        "option_name": "groupOfPlantSpeciesTypes",
+        "option_label": "Group Of Plant Species Type",
+        "option_description": "Group Of Plant Species Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "statisticallyDerivedPlantGroup",
+                "label": "Statistically Derived Plant Group",
+                "id": "50-230"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "nonStatisticallyDerivedPlantGroup",
+                "label": "Non Statistically Derived Plant Group",
+                "id": "50-231"
+            }
+        ]
+    },
+    {
+        "option_id": 29,
+        "option_name": "growth_frequencies",
+        "option_label": "Growth Frequency",
+        "option_description": "Growth Frequencies",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "other",
+                "label": "Other",
+                "id": "29-168"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "annual",
+                "label": "Annual",
+                "id": "29-166"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "biennial",
+                "label": "Biennial",
+                "id": "29-167"
+            }
+        ]
+    },
+    {
+        "option_id": 40,
+        "option_name": "hardpan_types",
+        "option_label": "Hardpan Type",
+        "option_description": "Hardpan Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "ironpan/laterite",
+                "label": "Ironpan / Laterite",
+                "id": "40-201"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "petrocalcic",
+                "label": "Petrocalcic",
+                "id": "40-202"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "petrogypsic",
+                "label": "Petrogypsic",
+                "id": "40-203"
+            }
+        ]
+    },
+    {
+        "option_id": 27,
+        "option_name": "herbaceous_leaf_phenologies",
+        "option_label": "Narrow Leaf Phenology",
+        "option_description": "Narrow Leaf Phenologies",
+        "options": [
+            {
+                "show": "nonPerennialGrowthFrequency,nonPerennialPercentage",
+                "hide": "perennialPercentage",
+                "option": "NonPerennial",
+                "label": "Non Perennial",
+                "id": "27-161"
+            },
+            {
+                "show": "perennialPercentage",
+                "hide": "nonPerennialGrowthFrequency,nonPerennialPercentage",
+                "option": "Perennial",
+                "label": "Perennial",
+                "id": "27-162"
+            }
+        ]
+    },
+    {
+        "option_id": 48,
+        "option_name": "inorganicDepositTypes",
+        "option_label": "Inorganic Deposit Type",
+        "option_description": "Inorganic Deposit Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "salt",
+                "label": "Salt",
+                "id": "48-220"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "soda",
+                "label": "Soda",
+                "id": "48-221"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "lime",
+                "label": "Lime",
+                "id": "48-222"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "gypsum",
+                "label": "Gypsum",
+                "id": "48-223"
+            }
+        ]
+    },
+    {
+        "option_id": 53,
+        "option_name": "irrigationTypes",
+        "option_label": "Irrigation Type",
+        "option_description": "Irrigation Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "surface",
+                "label": "Surface",
+                "id": "53-205"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "sprinkler",
+                "label": "Sprinkler",
+                "id": "53-238"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "drip",
+                "label": "Drip",
+                "id": "53-239"
+            }
+        ]
+    },
+    {
+        "option_id": 7,
+        "option_name": "land_form_types",
+        "option_label": "Land Form Type",
+        "option_description": "Land Form Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Major Depression",
+                "label": "Major Depression",
+                "id": "7-27"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Narrow Plateau",
+                "label": "Narrow Plateau",
+                "id": "7-28"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Valley",
+                "label": "Valley",
+                "id": "7-29"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Level Land - Depression",
+                "label": "Level Land - Depression",
+                "id": "7-30"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Level Land - Low Gradient Footslope",
+                "label": "Level Land - Low Gradient Footslope",
+                "id": "7-31"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Level Land - Plain",
+                "label": "Level Land - Plain",
+                "id": "7-32"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Level Land - Plateau",
+                "label": "Level Land - Plateau",
+                "id": "7-33"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Level Land - Valley Floor",
+                "label": "Level Land - Valley Floor",
+                "id": "7-34"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Sloping Land - Dissected Plain",
+                "label": "Sloping Land - Dissected Plain",
+                "id": "7-35"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Sloping Land - Medium-Gradient Escarpment Zone",
+                "label": "Sloping Land - Medium-Gradient Escarpment Zone",
+                "id": "7-36"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Sloping Land - Medium-Gradient Hill",
+                "label": "Sloping Land - Medium-Gradient Hill",
+                "id": "7-37"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Sloping Land - Medium-Gradient Mountain",
+                "label": "Sloping Land - Medium-Gradient Mountain",
+                "id": "7-38"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Sloping Land - Mountainous Highland",
+                "label": "Sloping Land - Mountainous Highland",
+                "id": "7-39"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Sloping Land - Ridges",
+                "label": "Sloping Land - Ridges",
+                "id": "7-40"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Steep Land - High-Gradient Escarpment Zone",
+                "label": "Steep Land - High-Gradient Escarpment Zone",
+                "id": "7-41"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Steep Land - Gradient Hill",
+                "label": "Steep Land - Gradient Hill",
+                "id": "7-42"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Steep Land - Gradient Mountain",
+                "label": "Steep Land - Gradient Mountain",
+                "id": "7-43"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Steep Land - Gradient Valleys",
+                "label": "Steep Land - Gradient Valleys",
+                "id": "7-44"
+            }
+        ]
+    },
+    {
+        "option_id": 22,
+        "option_name": "leaf_arrangements",
+        "option_label": "Leaf Arrangement",
+        "option_description": "Leaf Arrangments",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "alternate",
+                "label": "Alternate",
+                "id": "22-110"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "helical",
+                "label": "Helical",
+                "id": "22-111"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "opposite",
+                "label": "Opposite",
+                "id": "22-112"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "whorled",
+                "label": "Whorled",
+                "id": "22-113"
+            }
+        ]
+    },
+    {
+        "option_id": 21,
+        "option_name": "leaf_aspects",
+        "option_label": "Leaf Aspect",
+        "option_description": "Leaf Aspects",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "sclerophyllous",
+                "label": "Sclerophyllous",
+                "id": "21-107"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "soft_leaved",
+                "label": "Soft Leaved",
+                "id": "21-108"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "succulent",
+                "label": "Succulent",
+                "id": "21-109"
+            }
+        ]
+    },
+    {
+        "option_id": 13,
+        "option_name": "leaf_character_size_types",
+        "option_label": "Leaf Character Size Type",
+        "option_description": "Leaf Character Size Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "large_leaf",
+                "label": "Large Leaf",
+                "id": "13-73"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "medium_leaf",
+                "label": "Medium Leaf",
+                "id": "13-74"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "small_leaf",
+                "label": "Small Leaf",
+                "id": "13-75"
+            }
+        ]
+    },
+    {
+        "option_id": 25,
+        "option_name": "leaf_phenologies",
+        "option_label": "Leaf Phenology",
+        "option_description": "Leaf Phenologies",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Deciduous",
+                "label": "Deciduous",
+                "id": "25-159"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Evergreen",
+                "label": "Evergreen",
+                "id": "25-160"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "NonPerennial",
+                "label": "Non Perennial",
+                "id": "25-161"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Perennial",
+                "label": "Perennial",
+                "id": "25-162"
+            }
+        ]
+    },
+    {
+        "option_id": 24,
+        "option_name": "leaf_shapes",
+        "option_label": "Leaf Shape",
+        "option_description": "Leaf Shapes",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "acicular",
+                "label": "Acicular",
+                "id": "24-119"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "acuminate",
+                "label": "Acuminate",
+                "id": "24-120"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "aristate",
+                "label": "Aristate",
+                "id": "24-121"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "bipinnate",
+                "label": "Bipinnate",
+                "id": "24-122"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "cordate",
+                "label": "Cordate",
+                "id": "24-123"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "cuneate",
+                "label": "Cuneate",
+                "id": "24-124"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "deltoid",
+                "label": "Deltoid",
+                "id": "24-125"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "digitate",
+                "label": "Digitate",
+                "id": "24-126"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "elliptic",
+                "label": "Elliptic",
+                "id": "24-127"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "falcate",
+                "label": "Falcate",
+                "id": "24-128"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "flabellate",
+                "label": "Flabellate",
+                "id": "24-129"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "hastate",
+                "label": "Hastate",
+                "id": "24-130"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "lanceShaped",
+                "label": "Lance Shaped",
+                "id": "24-131"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "linear",
+                "label": "Linear",
+                "id": "24-132"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "lobed",
+                "label": "Lobed",
+                "id": "24-133"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "obcordat",
+                "label": "Obcordat",
+                "id": "24-134"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "oblanceolate",
+                "label": "Oblanceolate",
+                "id": "24-135"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "oblong",
+                "label": "Oblong",
+                "id": "24-136"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "obovate",
+                "label": "Obovate",
+                "id": "24-137"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "obtuse",
+                "label": "Obtuse",
+                "id": "24-138"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "orbicular",
+                "label": "Orbicular",
+                "id": "24-139"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "ovate",
+                "label": "Ovate",
+                "id": "24-140"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "palmate",
+                "label": "Palmate",
+                "id": "24-141"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "pedate",
+                "label": "Pedate",
+                "id": "24-142"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "peltate",
+                "label": "Peltate",
+                "id": "24-143"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "perfoliate",
+                "label": "Perfoliate",
+                "id": "24-144"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "pinnate",
+                "label": "Pinnate",
+                "id": "24-145"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "pinnatisect",
+                "label": "Pinnatisect",
+                "id": "24-146"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "reniform",
+                "label": "Reniform",
+                "id": "24-147"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "rhomboid",
+                "label": "Rhomboid",
+                "id": "24-148"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "round",
+                "label": "Round",
+                "id": "24-149"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "sagittate",
+                "label": "Sagittate",
+                "id": "24-150"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "spatulate",
+                "label": "Spatulate",
+                "id": "24-151"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "spearShaped",
+                "label": "Spear Shaped",
+                "id": "24-152"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "subulate",
+                "label": "Subulate",
+                "id": "24-153"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "swordShaped",
+                "label": "Sword Shaped",
+                "id": "24-154"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "trifoliate",
+                "label": "Trifoliate",
+                "id": "24-155"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "tripinnate",
+                "label": "Tripinnate",
+                "id": "24-156"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "truncate",
+                "label": "Truncate",
+                "id": "24-157"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "unifoliate",
+                "label": "Unifoliate",
+                "id": "24-158"
+            }
+        ]
+    },
+    {
+        "option_id": 28,
+        "option_name": "leaf_types",
+        "option_label": "Leaf Type",
+        "option_description": "Leaf Types",
+        "options": [
+            {
+                "show": "aphyllousPercentage",
+                "hide": "broadLeafPercentage,needleLeafPercentage,leafArragement,leafShape,leafVenation",
+                "option": "Aphyllous",
+                "label": "Aphyllous",
+                "id": "28-163"
+            },
+            {
+                "show": "needleLeafPercentage",
+                "hide": "broadLeafPercentage,aphyllousPercentage,leafArragement,leafShape,leafVenation",
+                "option": "NeedleLeaf",
+                "label": "Needle Leaf",
+                "id": "28-164"
+            },
+            {
+                "show": "broadLeafPercentage,leafArragement,leafShape,leafVenation",
+                "hide": "needleLeafPercentage,aphyllousPercentage",
+                "option": "BroadLeaf",
+                "label": "Broad Leaf",
+                "id": "28-165"
+            }
+        ]
+    },
+    {
+        "option_id": 23,
+        "option_name": "leaf_venations",
+        "option_label": "Leaf Venation",
+        "option_description": "Leaf Venations",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "dichotomous",
+                "label": "Dichotomous",
+                "id": "23-114"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "palmateReticulate",
+                "label": "Palmate Reticulate",
+                "id": "23-115"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "parallelExpandedLeaf",
+                "label": "Parallel Expanded Leaf",
+                "id": "23-116"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "parallelLinearLeaf",
+                "label": "Parallel Linear Leaf",
+                "id": "23-117"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "pinnateReticulate",
+                "label": "Pinnate Reticulate",
+                "id": "23-118"
+            }
+        ]
+    },
+    {
+        "option_id": 3,
+        "option_name": "length_of_growing_periods",
+        "option_label": "Length of Growing Period",
+        "option_description": "Length of Growing Period",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Hyperarid",
+                "label": "Hyperarid",
+                "id": "3-7"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Arid",
+                "label": "Arid",
+                "id": "3-8"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Dry Semi-Arid",
+                "label": "Dry Semi-Arid",
+                "id": "3-9"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Moist Semi-Arid",
+                "label": "Moist Semi-Arid",
+                "id": "3-10"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Subhumid",
+                "label": "Subhumid",
+                "id": "3-11"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Humid",
+                "label": "Humid",
+                "id": "3-12"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Perhumid",
+                "label": "Perhumid",
+                "id": "3-13"
+            }
+        ]
+    },
+    {
+        "option_id": 12,
+        "option_name": "life_form_specialization_types",
+        "option_label": "Life Form Specilization Type",
+        "option_description": "Life Form Specialization Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "bamboos",
+                "label": "Bamboos",
+                "id": "12-66"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "climbers",
+                "label": "Climbers / Lianas",
+                "id": "12-67"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "epiphytes",
+                "label": "Epiphytes",
+                "id": "12-68"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "stem_succulents",
+                "label": "Stem Succulents",
+                "id": "12-69"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "tuft_plants",
+                "label": "Tuft Plants",
+                "id": "12-70"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "pseudostem",
+                "label": "Pseudostem (Tree-like herb)",
+                "id": "12-71"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "unbranched_columnar_trunk",
+                "label": "Unbranched Columnar Trunk (Palm)",
+                "id": "12-72"
+            }
+        ]
+    },
+    {
+        "option_id": 44,
+        "option_name": "macropattern_types",
+        "option_label": "Macropattern Type",
+        "option_description": "Macropattern Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "gilgai",
+                "label": "Gilgai",
+                "id": "44-209"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "termiteMounds",
+                "label": "Termite Mounds",
+                "id": "44-210"
+            }
+        ]
+    },
+    {
+        "option_id": 52,
+        "option_name": "mechanicalErosionControls",
+        "option_label": "Mechanical Erosion Control",
+        "option_description": "Mechanical Erosion Controls",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "contourPloughing",
+                "label": "Contour Ploughing",
+                "id": "52-235"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "terracing",
+                "label": "Terracing",
+                "id": "52-236"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "windBreak",
+                "label": "Wind Break",
+                "id": "52-237"
+            }
+        ]
+    },
+    {
+        "option_id": 32,
+        "option_name": "nutrient_levels",
+        "option_label": "Nutrient Level",
+        "option_description": "Nutrient Levels",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "eutrophic",
+                "label": "Eutrophic",
+                "id": "32-175"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "mesotrophic",
+                "label": "Mesotrophic",
+                "id": "32-176"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "oligotrophic",
+                "label": "Oligotrophic",
+                "id": "32-177"
+            }
+        ]
+    },
+    {
+        "option_id": 14,
+        "option_name": "on_top_types",
+        "option_label": "On Top Type",
+        "option_description": "On Top Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "baseline",
+                "label": "Baseline",
+                "id": "14-76"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "previousAll",
+                "label": "PreviousAll",
+                "id": "14-77"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "previousE1",
+                "label": "PreviousE1",
+                "id": "14-78"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "previousE2",
+                "label": "PreviousE2",
+                "id": "14-79"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "previousE3",
+                "label": "PreviousE3",
+                "id": "14-80"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "stratum1All",
+                "label": "Stratum1All",
+                "id": "14-81"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "stratum1E1",
+                "label": "Stratum1E1",
+                "id": "14-82"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "stratum2All",
+                "label": "Stratum2All",
+                "id": "14-83"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "stratum2E1",
+                "label": "Stratum2E1",
+                "id": "14-84"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "all",
+                "label": "All",
+                "id": "14-85"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "element",
+                "label": "Element",
+                "id": "14-86"
+            }
+        ]
+    },
+    {
+        "option_id": 47,
+        "option_name": "organicDepositTypes",
+        "option_label": "Organic Deposit Type",
+        "option_description": "Organic Deposit Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "ombrothrophicPeat",
+                "label": "Ombrothrophic Peat",
+                "id": "47-218"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "minerothrophicPeat",
+                "label": "Minerothrophic Peat",
+                "id": "47-219"
+            }
+        ]
+    },
+    {
+        "option_id": 20,
+        "option_name": "period_units",
+        "option_label": "Period Unit",
+        "option_description": "Period Units",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "second",
+                "label": "Second",
+                "id": "20-100"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "minute",
+                "label": "Minute",
+                "id": "20-101"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "hour",
+                "label": "Hour",
+                "id": "20-102"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "day",
+                "label": "Day",
+                "id": "20-103"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "week",
+                "label": "Week",
+                "id": "20-104"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "month",
+                "label": "Month",
+                "id": "20-105"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "year",
+                "label": "Year",
+                "id": "20-106"
+            }
+        ]
+    },
+    {
+        "option_id": 19,
+        "option_name": "period_variations",
+        "option_label": "Period Variation",
+        "option_description": "Period Variations",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "atmospheric",
+                "label": "Atmospheric",
+                "id": "19-96"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "daily",
+                "label": "Daily",
+                "id": "19-97"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "seasonal",
+                "label": "Seasonal",
+                "id": "19-98"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "tidal",
+                "label": "Tidal",
+                "id": "19-99"
+            }
+        ]
+    },
+    {
+        "option_id": 51,
+        "option_name": "ploughTypes",
+        "option_label": "Plough Type",
+        "option_description": "Plough Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "manual",
+                "label": "Manual",
+                "id": "51-232"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "manualOrAnimal",
+                "label": "Manual/Animal",
+                "id": "51-233"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "mechanical",
+                "label": "Mechanical",
+                "id": "51-234"
+            }
+        ]
+    },
+    {
+        "option_id": 2,
+        "option_name": "presence_types",
+        "option_label": "Presence Type",
+        "option_description": "Presence Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "fixed",
+                "label": "Fixed",
+                "id": "2-3"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "conditional",
+                "label": "Conditional",
+                "id": "2-1"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "optional",
+                "label": "Optional",
+                "id": "2-4"
+            }
+        ]
+    },
+    {
+        "option_id": 10,
+        "option_name": "rock_age_types",
+        "option_label": "Rock Age Type",
+        "option_description": "Rock Age Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Mesozoic",
+                "label": "Mesozoic",
+                "id": "10-56"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Paleozoic",
+                "label": "Paleozoic",
+                "id": "10-57"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Precambrian",
+                "label": "Precambrian",
+                "id": "10-58"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Quaternary",
+                "label": "Quaternary",
+                "id": "10-59"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Tertiary",
+                "label": "Tertiary",
+                "id": "10-60"
+            }
+        ]
+    },
+    {
+        "option_id": 30,
+        "option_name": "rooting_status",
+        "option_label": "Rooting Status",
+        "option_description": "Rooting Status",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "nonRooted",
+                "label": "Non Rooted",
+                "id": "30-169"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Rooted",
+                "label": "Rooted",
+                "id": "30-170"
+            }
+        ]
+    },
+    {
+        "option_id": 16,
+        "option_name": "sequential_temporal_relationship",
+        "option_label": "Sequential Temporal Relationship",
+        "option_description": "Sequential Temporal Relationships",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "sequentialSameYear",
+                "label": "Sequential Same Year",
+                "id": "16-92"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "sequentialOtherYear",
+                "label": "Sequential Other Year",
+                "id": "16-93"
+            }
+        ]
+    },
+    {
+        "option_id": 49,
+        "option_name": "singlePlantSpeciesTypes",
+        "option_label": "Single Plant Species Type",
+        "option_description": "Single Plant Species Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "dominant",
+                "label": "Dominant",
+                "id": "49-228"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "mostFrequent",
+                "label": "Most Frequent",
+                "id": "49-229"
+            }
+        ]
+    },
+    {
+        "option_id": 6,
+        "option_name": "slope_class_types",
+        "option_label": "Slope Class Type",
+        "option_description": "Slope Class Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Flat to Almost Flat",
+                "label": "Flat to Almost Flat",
+                "id": "6-22"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Gently Undulating to Undulating",
+                "label": "Gently Undulating to Undulating",
+                "id": "6-23"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Rolling",
+                "label": "Rolling",
+                "id": "6-24"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Hilly",
+                "label": "Hilly",
+                "id": "6-25"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Steeply Dissected to Mountainous",
+                "label": "Steeply Dissected to Mountainous",
+                "id": "6-26"
+            }
+        ]
+    },
+    {
+        "option_id": 36,
+        "option_name": "snow_types",
+        "option_label": "Snow Type",
+        "option_description": "Snow Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "crud",
+                "label": "Crud",
+                "id": "36-184"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "crust",
+                "label": "Crust",
+                "id": "36-185"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "powder",
+                "label": "Powder",
+                "id": "36-186"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "sludge",
+                "label": "Sludge",
+                "id": "36-187"
+            }
+        ]
+    },
+    {
+        "option_id": 4,
+        "option_name": "termal_zones",
+        "option_label": "Termal Zone",
+        "option_description": "Termal Zones",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "Boreal Continental",
+                "label": "Boreal Continental",
+                "id": "4-14"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Boreal Oceanic",
+                "label": "Boreal Oceanic",
+                "id": "4-15"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Polar Arctic",
+                "label": "Polar Arctic",
+                "id": "4-16"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Subtropics Summer Rainfall",
+                "label": "Subtropics Summer Rainfall",
+                "id": "4-17"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Subtropics Winter Rainfall",
+                "label": "Subtropics Winter Rainfall",
+                "id": "4-18"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Temperate Continental",
+                "label": "Temperate Continental",
+                "id": "4-19"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Temperate Oceanic",
+                "label": "Temperate Oceanic",
+                "id": "4-20"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "Tropics",
+                "label": "Tropics",
+                "id": "4-21"
+            }
+        ]
+    },
+    {
+        "option_id": 37,
+        "option_name": "terrestrial_ice_types",
+        "option_label": "Terrestrial Ice Type",
+        "option_description": "Terrestrial Ice Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "iceCaps",
+                "label": "Ice Caps",
+                "id": "37-188"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "iceFields",
+                "label": "Ice Fields",
+                "id": "37-189"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "glacier",
+                "label": "Glacier",
+                "id": "37-190"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "rockGlacier",
+                "label": "Rock Glacier",
+                "id": "37-191"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "tidewaterGlacier",
+                "label": "Tidewater Glacier",
+                "id": "37-192"
+            }
+        ]
+    },
+    {
+        "option_id": 17,
+        "option_name": "units_of_measure_area",
+        "option_label": "Unit of Measure Area",
+        "option_description": "Units of Measure Area",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "ha",
+                "label": "Hectare",
+                "id": "17-224"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "m2",
+                "label": "Square Metre",
+                "id": "17-225"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "cm2",
+                "label": "Square Centimetre",
+                "id": "17-226"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "km2",
+                "label": "Square Kilometre",
+                "id": "17-227"
+            }
+        ]
+    },
+    {
+        "option_id": 54,
+        "option_name": "vegetationArtificialityTypes",
+        "option_label": "Vegetation Artificiality Type",
+        "option_description": "Vegetation Artificiality Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "natural",
+                "label": "Natural",
+                "id": "54-179"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "seminatural",
+                "label": "Seminatural",
+                "id": "54-240"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "naturalOrSeminatural",
+                "label": "Natural or Seminatural",
+                "id": "54-241"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "cultivated&managed",
+                "label": "Cultivated & Managed",
+                "id": "54-244"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "cultivated",
+                "label": "Cultivated",
+                "id": "54-242"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "managed",
+                "label": "Managed",
+                "id": "54-243"
+            }
+        ]
+    },
+    {
+        "option_id": 35,
+        "option_name": "water_body_positions",
+        "option_label": "Water Body Position",
+        "option_description": "Water Body Positions",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "aboveSurface",
+                "label": "Above Surface",
+                "id": "35-182"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "belowSurface",
+                "label": "Below Surface",
+                "id": "35-183"
+            }
+        ]
+    },
+    {
+        "option_id": 34,
+        "option_name": "water_ice_dynamics",
+        "option_label": "Water & Ice Dynamic",
+        "option_description": "Water & Ice Dynamics",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "flowingOrMoving",
+                "label": "Flowing",
+                "id": "34-180"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "standing",
+                "label": "Standing",
+                "id": "34-181"
+            }
+        ]
+    },
+    {
+        "option_id": 31,
+        "option_name": "water_salinity_types",
+        "option_label": "Water Salinity Type",
+        "option_description": "Water Salinity Types",
+        "options": [
+            {
+                "show": null,
+                "hide": null,
+                "option": "fresh",
+                "label": "Fresh",
+                "id": "31-171"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "brackish",
+                "label": "Brackish",
+                "id": "31-172"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "saline",
+                "label": "Saline",
+                "id": "31-173"
+            },
+            {
+                "show": null,
+                "hide": null,
+                "option": "brine",
+                "label": "Brine",
+                "id": "31-174"
+            }
+        ]
+    },
+    {
+        "option_id": 26,
+        "option_name": "woody_leaf_phenologies",
+        "option_label": "Broad Leaf Phenology",
+        "option_description": "Broad Leaf Phenologies",
+        "options": [
+            {
+                "show": "deciduousPercentage,deciduousStart,deciduousLength",
+                "hide": "evergreenPercentage",
+                "option": "Deciduous",
+                "label": "Deciduous",
+                "id": "26-159"
+            },
+            {
+                "show": "evergreenPercentage",
+                "hide": "deciduousPercentage,deciduousStart,deciduousLength",
+                "option": "Evergreen",
+                "label": "Evergreen",
+                "id": "26-160"
+            }
+        ]
+    }
+]  
+}

@@ -1,0 +1,3718 @@
+    {
+        "lccs": {
+            "LC_Legend": [
+                {
+                    "ID": 1,
+                    "LChS_ElementDefinition": "[0]['elements'][0]",
+                    "LChS_EquivalentElement": "legend_name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Legend']['name']"
+                },
+                {
+                    "ID": 2,
+                    "LChS_ElementDefinition": "[0]['elements'][1]",
+                    "LChS_EquivalentElement": "legend_description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Legend']['description']"
+                },
+                {
+                    "ID": 3,
+                    "LChS_ElementDefinition": "[0]['elements'][2]",
+                    "LChS_EquivalentElement": "legend_author",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Legend']['$']['uuid']"
+                }
+            ],
+            "LC_Class": [
+                {
+                    "ID": 4,
+                    "LChS_ElementDefinition": "['class_reference']",
+                    "LChS_EquivalentElement": "class_reference",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Legend']['elements']['LC_LandCoverClass']"
+                }
+            ],
+            "LC_ClassElements": [
+                {
+                    "ID": 5,
+                    "LChS_ElementDefinition": "['LC_Class'][1]",
+                    "LChS_EquivalentElement": "class_name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "name"
+                },
+                {
+                    "ID": 6,
+                    "LChS_ElementDefinition": "['LC_Class'][2]",
+                    "LChS_EquivalentElement": "class_description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "description"
+                },
+                {
+                    "ID": 7,
+                    "LChS_ElementDefinition": "['LC_Class'][3]",
+                    "LChS_EquivalentElement": "class_map_code",
+                    "Source_ElementDefinition": null,
+                    "Translation": "map_code"
+                }
+            ],
+            "LC_ClassCharacteristics": [
+                {
+                    "ID": 8,
+                    "LChS_ElementDefinition": "['characteristic_reference']",
+                    "LChS_EquivalentElement": "characteristic_reference",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Legend']['elements']['LC_LandCoverClass']['elements']['LC_Characteristic']"
+                },
+                {
+                    "ID": 9,
+                    "LChS_ElementDefinition": "['characteristic_reference']",
+                    "LChS_EquivalentElement": "LC_ClimateCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Climate"
+                },
+                {
+                    "ID": 10,
+                    "LChS_ElementDefinition": "['characteristic_reference']",
+                    "LChS_EquivalentElement": "LC_LandFormCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_LandForm"
+                },
+                {
+                    "ID": 11,
+                    "LChS_ElementDefinition": "['characteristic_reference']",
+                    "LChS_EquivalentElement": "LC_GeographicalAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GeographicalAspects"
+                },
+                {
+                    "ID": 12,
+                    "LChS_ElementDefinition": "['characteristic_reference']",
+                    "LChS_EquivalentElement": "LC_TopographicalAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_TopographicalAspects"
+                },
+                {
+                    "ID": 13,
+                    "LChS_ElementDefinition": "['characteristic_reference']",
+                    "LChS_EquivalentElement": "LC_RocksSurfaceCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ConsolidatedSurfaceCharacteristics"
+                },
+                {
+                    "ID": 14,
+                    "LChS_ElementDefinition": "['characteristic_reference']",
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_UnconsolidatedSurfaceCharacteristics"
+                }
+            ],
+            "LC_ClassCharacteristicElements": [
+                {
+                    "ID": 15,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][0]",
+                    "LChS_EquivalentElement": "climate-name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Climate']['name']"
+                },
+                {
+                    "ID": 16,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][0]",
+                    "LChS_EquivalentElement": "climate-description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Climate']['description']"
+                },
+                {
+                    "ID": 17,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][0]",
+                    "LChS_EquivalentElement": "climate-lengthOfGrowingPeriod",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Climate']['length_of_growing_period']"
+                },
+                {
+                    "ID": 18,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][0]",
+                    "LChS_EquivalentElement": "climate-termalZone",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Climate']['termal_zone']"
+                },
+                {
+                    "ID": 19,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][1]",
+                    "LChS_EquivalentElement": "land_form-name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_LandForm']['name']"
+                },
+                {
+                    "ID": 20,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][1]",
+                    "LChS_EquivalentElement": "land_form-description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_LandForm']['description']"
+                },
+                {
+                    "ID": 21,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][1]",
+                    "LChS_EquivalentElement": "land_form-slopeClassType",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_LandForm']['slope_class_type']"
+                },
+                {
+                    "ID": 22,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][1]",
+                    "LChS_EquivalentElement": "land_form-type",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_LandForm']['type']"
+                },
+                {
+                    "ID": 23,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][2]",
+                    "LChS_EquivalentElement": "geographical_aspects-name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_GeographicalAspects']['name']"
+                },
+                {
+                    "ID": 24,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][2]",
+                    "LChS_EquivalentElement": "geographical_aspects-description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_GeographicalAspects']['description']"
+                },
+                {
+                    "ID": 25,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][2]",
+                    "LChS_EquivalentElement": "geographical_aspects-type",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_GeographicalAspects']['type']"
+                },
+                {
+                    "ID": 26,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][3]",
+                    "LChS_EquivalentElement": "topographical_aspects-name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_TopographicalAspects']['name']"
+                },
+                {
+                    "ID": 27,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][3]",
+                    "LChS_EquivalentElement": "topographical_aspects-description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_TopographicalAspects']['description']"
+                },
+                {
+                    "ID": 28,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][3]",
+                    "LChS_EquivalentElement": "topographical_aspects-altitude",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_TopographicalAspects']['altitude']"
+                },
+                {
+                    "ID": 29,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][3]",
+                    "LChS_EquivalentElement": "topographical_aspects-slope",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_TopographicalAspects']['slope']"
+                },
+                {
+                    "ID": 30,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][3]",
+                    "LChS_EquivalentElement": "topographical_aspects-slopExposition",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_TopographicalAspects']['slope_exposition']"
+                },
+                {
+                    "ID": 31,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][4]",
+                    "LChS_EquivalentElement": "rock_surface_characteristics-name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_ConsolidatedSurfaceCharacteristics']['name']"
+                },
+                {
+                    "ID": 32,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][4]",
+                    "LChS_EquivalentElement": "rock_surface_characteristics-description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_ConsolidatedSurfaceCharacteristics']['description']"
+                },
+                {
+                    "ID": 33,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][4]",
+                    "LChS_EquivalentElement": "rock_surface_characteristics-ageType",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_ConsolidatedSurfaceCharacteristics']['rock_age_type']"
+                },
+                {
+                    "ID": 34,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][4]",
+                    "LChS_EquivalentElement": "rock_surface_characteristics-type",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_ConsolidatedSurfaceCharacteristics']['rock_type']"
+                },
+                {
+                    "ID": 35,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][5]",
+                    "LChS_EquivalentElement": "soil_sand_deposits_surface_characteristics-name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_UnconsolidatedSurfaceCharacteristics']['name']"
+                },
+                {
+                    "ID": 36,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][5]",
+                    "LChS_EquivalentElement": "soil_sand_deposits_surface_characteristics-description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_UnconsolidatedSurfaceCharacteristics']['description']"
+                },
+                {
+                    "ID": 37,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][5]",
+                    "LChS_EquivalentElement": "soil_sand_deposits_surface_characteristics-erosionType",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_UnconsolidatedSurfaceCharacteristics']['erosion_type']"
+                },
+                {
+                    "ID": 38,
+                    "LChS_ElementDefinition": "['LC_ClassCharacteristics'][5]",
+                    "LChS_EquivalentElement": "soil_sand_deposits_surface_characteristics-soilType",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_UnconsolidatedSurfaceCharacteristics']['soil_type']"
+                }
+            ],
+            "LC_Patterns": [
+                {
+                    "ID": 39,
+                    "LChS_ElementDefinition": "['pattern_reference']",
+                    "LChS_EquivalentElement": "pattern_reference",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Legend']['elements']['LC_LandCoverClass']['elements']['LC_HorizontalPattern']"
+                }
+            ],
+            "LC_HorizontalPatternElements": [
+                {
+                    "ID": 40,
+                    "LChS_ElementDefinition": "['LC_Patterns'][0]",
+                    "LChS_EquivalentElement": "name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "name"
+                },
+                {
+                    "ID": 41,
+                    "LChS_ElementDefinition": "['LC_Patterns'][0]",
+                    "LChS_EquivalentElement": "description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "description"
+                },
+                {
+                    "ID": 42,
+                    "LChS_ElementDefinition": "['LC_Patterns'][0]",
+                    "LChS_EquivalentElement": "cover",
+                    "Source_ElementDefinition": null,
+                    "Translation": "cover"
+                },
+                {
+                    "ID": 43,
+                    "LChS_ElementDefinition": "['LC_Patterns'][0]",
+                    "LChS_EquivalentElement": "occurrence",
+                    "Source_ElementDefinition": null,
+                    "Translation": "occurance"
+                },
+                {
+                    "ID": 44,
+                    "LChS_ElementDefinition": "['LC_Patterns'][0]",
+                    "LChS_EquivalentElement": "type",
+                    "Source_ElementDefinition": null,
+                    "Translation": "type"
+                }
+            ],
+            "LC_Strata": [
+                {
+                    "ID": 45,
+                    "LChS_ElementDefinition": "['pattern_reference']",
+                    "LChS_EquivalentElement": "pattern_reference",
+                    "Source_ElementDefinition": null,
+                    "Translation": "['LC_Stratum']"
+                }
+            ],
+            "LC_StratumElements": [
+                {
+                    "ID": 46,
+                    "LChS_ElementDefinition": "['LC_Patterns'][1]",
+                    "LChS_EquivalentElement": "name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "name"
+                },
+                {
+                    "ID": 47,
+                    "LChS_ElementDefinition": "['LC_Patterns'][1]",
+                    "LChS_EquivalentElement": "description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "description"
+                },
+                {
+                    "ID": 48,
+                    "LChS_ElementDefinition": "['LC_Patterns'][1]",
+                    "LChS_EquivalentElement": "presenceType",
+                    "Source_ElementDefinition": null,
+                    "Translation": "presence_type"
+                },
+                {
+                    "ID": 49,
+                    "LChS_ElementDefinition": "['LC_Patterns'][1]",
+                    "LChS_EquivalentElement": "onTop",
+                    "Source_ElementDefinition": null,
+                    "Translation": "ontop"
+                }
+            ],
+            "LC_Blocks": [
+                {
+                    "ID": 50,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Vegetation"
+                },
+                {
+                    "ID": 51,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_AbioticElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_AbioticSurface"
+                },
+                {
+                    "ID": 52,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GrowthForms"
+                },
+                {
+                    "ID": 53,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WoodyGrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WoodyGrowthForms"
+                },
+                {
+                    "ID": 54,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_HerbaceousGrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_HerbaceousGrowthForms"
+                },
+                {
+                    "ID": 55,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_LichenAndMosses"
+                },
+                {
+                    "ID": 56,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Algae",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Algae"
+                },
+                {
+                    "ID": 57,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ArtificialSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ArtificialSurface"
+                },
+                {
+                    "ID": 58,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_NonBuiltUpSurface"
+                },
+                {
+                    "ID": 59,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DumpSite",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_DumpSite"
+                },
+                {
+                    "ID": 60,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Extraction",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Extraction"
+                },
+                {
+                    "ID": 61,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_BuiltUpSurface"
+                },
+                {
+                    "ID": 62,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonLinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_NonLinearSurface"
+                },
+                {
+                    "ID": 63,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Building",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Building"
+                },
+                {
+                    "ID": 64,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherConstruction",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OtherConstruction"
+                },
+                {
+                    "ID": 65,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherArtificialSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OtherArtificialSurface"
+                },
+                {
+                    "ID": 66,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_LinearSurface"
+                },
+                {
+                    "ID": 67,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Road"
+                },
+                {
+                    "ID": 68,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Railway"
+                },
+                {
+                    "ID": 69,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CommunicationsAndOther"
+                },
+                {
+                    "ID": 70,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NaturalSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_NaturalSurface"
+                },
+                {
+                    "ID": 71,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Permafrost",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Permafrost"
+                },
+                {
+                    "ID": 72,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_RocksSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_RocksSurface"
+                },
+                {
+                    "ID": 73,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BareRock",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_BareRocks"
+                },
+                {
+                    "ID": 74,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Hardpan",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Hardpans"
+                },
+                {
+                    "ID": 75,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_SoilSandDepositSurface"
+                },
+                {
+                    "ID": 76,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_LooseAndShiftingSand"
+                },
+                {
+                    "ID": 77,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Dune",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Dune"
+                },
+                {
+                    "ID": 78,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Deposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Deposits"
+                },
+                {
+                    "ID": 79,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_InorganicDeposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_InorganicDeposits"
+                },
+                {
+                    "ID": 80,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OrganicDeposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OrganicDeposits"
+                },
+                {
+                    "ID": 81,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBodyAndAssociatedSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterBodyAndAssociatedSurface"
+                },
+                {
+                    "ID": 82,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Tree",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Trees"
+                },
+                {
+                    "ID": 83,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Shrub",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Shrubs"
+                },
+                {
+                    "ID": 84,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Forbs",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Forbs"
+                },
+                {
+                    "ID": 85,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Graminoid",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Graminae"
+                },
+                {
+                    "ID": 86,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBody",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterBody"
+                },
+                {
+                    "ID": 87,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterSalinityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterSalinity"
+                },
+                {
+                    "ID": 88,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterChemistryCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterChemistry"
+                },
+                {
+                    "ID": 89,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Artificiality"
+                },
+                {
+                    "ID": 90,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_AquacultureCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Aquaculture"
+                },
+                {
+                    "ID": 91,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Snow",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Snow"
+                },
+                {
+                    "ID": 92,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Ice",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Ice"
+                },
+                {
+                    "ID": 93,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_TerrestrialIce",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_TerrestrialIce"
+                },
+                {
+                    "ID": 94,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloatingIce",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_FloatingIce"
+                },
+                {
+                    "ID": 95,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ConstructionStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ConstructionStatus"
+                },
+                {
+                    "ID": 96,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ArtificialSurfaceDamageCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ArtificialSurfaceDamage"
+                },
+                {
+                    "ID": 97,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_FloristicAspect"
+                },
+                {
+                    "ID": 98,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_FloristicAspectSpecies"
+                },
+                {
+                    "ID": 99,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_SinglePlantSpecies"
+                },
+                {
+                    "ID": 100,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GroupOfPlantSpecies"
+                },
+                {
+                    "ID": 101,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_AllometricMeasurementsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_AllometricMeasurements"
+                },
+                {
+                    "ID": 102,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GrowthFormAge"
+                },
+                {
+                    "ID": 103,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_EvenAge"
+                },
+                {
+                    "ID": 104,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_UnevenAge"
+                },
+                {
+                    "ID": 105,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BurntStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_BurntStatus"
+                },
+                {
+                    "ID": 106,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DeadStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_DeadStatus"
+                },
+                {
+                    "ID": 107,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationDamageCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_VegetationDamage"
+                },
+                {
+                    "ID": 108,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterStressCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterStress"
+                },
+                {
+                    "ID": 109,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormIllnessCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GrowthFormIllness"
+                },
+                {
+                    "ID": 110,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrazedCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Grazing"
+                },
+                {
+                    "ID": 111,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrazedCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GrazingAnimalType"
+                },
+                {
+                    "ID": 112,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_NaturalOrSeminaturalVegetation"
+                },
+                {
+                    "ID": 113,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CultivatedAndManagedVegetation"
+                },
+                {
+                    "ID": 114,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CultivatedAndManagedVegetation"
+                },
+                {
+                    "ID": 115,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CultivatedAndManagedVegetation"
+                },
+                {
+                    "ID": 116,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Ploughing"
+                },
+                {
+                    "ID": 117,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_MechanicalErosionControl"
+                },
+                {
+                    "ID": 118,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_FieldSize"
+                },
+                {
+                    "ID": 119,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Irrigation"
+                },
+                {
+                    "ID": 120,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Rainfed"
+                },
+                {
+                    "ID": 121,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Postflooding"
+                },
+                {
+                    "ID": 122,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CropGrowingParameter"
+                },
+                {
+                    "ID": 123,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OverlapGrowingToReferenceCrop"
+                },
+                {
+                    "ID": 124,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ForestPlantation"
+                },
+                {
+                    "ID": 125,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OrchardAndOtherPlantation"
+                },
+                {
+                    "ID": 126,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CropYield"
+                },
+                {
+                    "ID": 127,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WoodyLeafPhenologyContainer",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WoodyGrowthLeafPhenology"
+                },
+                {
+                    "ID": 128,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WoodyLeafTypeContainer",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WoodyGrowthLeafType"
+                },
+                {
+                    "ID": 129,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_HerbaceousLeafPhenologyContainer",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_HerbaceousGrowthLeafPhenology"
+                },
+                {
+                    "ID": 130,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_HerbaceousLeafTypeContainer",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_HerbaceousGrowthLeafType"
+                },
+                {
+                    "ID": 131,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ForbsLeafTypeContainer",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ForbsGrowthLeafType"
+                },
+                {
+                    "ID": 132,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "Evergreen",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Evergreen"
+                },
+                {
+                    "ID": 133,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "Deciduous",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Deciduous"
+                },
+                {
+                    "ID": 134,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "Broad Leaf",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Broadleaved"
+                },
+                {
+                    "ID": 135,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "Needle Leaf",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Needleleaved"
+                },
+                {
+                    "ID": 136,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "Aphyllous",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Aphillous"
+                },
+                {
+                    "ID": 137,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "Perennial",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Perennial"
+                },
+                {
+                    "ID": 138,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "Non Perennial",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Annual"
+                },
+                {
+                    "ID": 139,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "Non Perennial",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Biennial"
+                },
+                {
+                    "ID": 140,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "HerbaceousBroadLeaf",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_HerbaceousBroadleaved"
+                },
+                {
+                    "ID": 141,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "HerbaceousNeedleLeaf",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_HerbaceousNeedleleaved"
+                },
+                {
+                    "ID": 142,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "ForbsBroadLeaf",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ForbsBroadleaved"
+                },
+                {
+                    "ID": 143,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "ForbsNeedleLeaf",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ForbsNeedleleaved"
+                }
+            ],
+            "LC_BlockElements": [
+                {
+                    "ID": 144,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "elementPresenceType",
+                    "Source_ElementDefinition": null,
+                    "Translation": "presence_type"
+                },
+                {
+                    "ID": 145,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "permafrostType",
+                    "Source_ElementDefinition": null,
+                    "Translation": "permafrost_type"
+                },
+                {
+                    "ID": 146,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "temporalType",
+                    "Source_ElementDefinition": null,
+                    "Translation": "sequential_temporal_relationship/type"
+                },
+                {
+                    "ID": 147,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "lengthOfTemporalRelationship",
+                    "Source_ElementDefinition": null,
+                    "Translation": "sequential_temporal_relationship/length"
+                },
+                {
+                    "ID": 148,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "lengthOfTemporalRelationshipUnits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "sequential_temporal_relationship/units"
+                },
+                {
+                    "ID": 149,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "inorganicDepositType",
+                    "Source_ElementDefinition": "LC_InorganicDeposits",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 150,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "organicDepositType",
+                    "Source_ElementDefinition": "LC_OrganicDeposits",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 151,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "terrestrialIceType",
+                    "Source_ElementDefinition": "LC_TerrestrialIce",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 152,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "snowType",
+                    "Source_ElementDefinition": "LC_Snow",
+                    "Translation": "snow_type"
+                },
+                {
+                    "ID": 153,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "duneType",
+                    "Source_ElementDefinition": "LC_Dune",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 154,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "macropatternType",
+                    "Source_ElementDefinition": "LC_BareSoil",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 155,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "hardpanType",
+                    "Source_ElementDefinition": "LC_HardPans",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 156,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "coarseMineralFragmentType",
+                    "Source_ElementDefinition": "LC_CoarseMineralFragments",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 157,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "extractionType",
+                    "Source_ElementDefinition": "LC_Extraction",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 158,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "dumpSiteType",
+                    "Source_ElementDefinition": "LC_DumpSite",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 159,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "linearSurfaceType",
+                    "Source_ElementDefinition": "LC_CommunicationsAndOther",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 160,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "linearSurfaceType",
+                    "Source_ElementDefinition": "LC_Railway",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 161,
+                    "LChS_ElementDefinition": "['LC_Blocks']",
+                    "LChS_EquivalentElement": "linearSurfaceType",
+                    "Source_ElementDefinition": "LC_Road",
+                    "Translation": "type"
+                }
+            ],
+            "LC_CharacteristicElements": [
+                {
+                    "ID": 162,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "periodVariationDescription",
+                    "Source_ElementDefinition": "LC_PeriodicVariation",
+                    "Translation": "period_description"
+                },
+                {
+                    "ID": 163,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "persistencePeriod",
+                    "Source_ElementDefinition": "LC_PeriodicVariation",
+                    "Translation": "persistence_period"
+                },
+                {
+                    "ID": 164,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "persistenceUnits",
+                    "Source_ElementDefinition": "LC_PeriodicVariation",
+                    "Translation": "persistence_units"
+                },
+                {
+                    "ID": 165,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "periodVariationType",
+                    "Source_ElementDefinition": "LC_PeriodicVariation",
+                    "Translation": "period_type"
+                },
+                {
+                    "ID": 166,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "waterSalinity",
+                    "Source_ElementDefinition": "LC_WaterSalinity",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 167,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "nutrientLevel",
+                    "Source_ElementDefinition": "LC_WaterChemistry",
+                    "Translation": "nutrient_level"
+                },
+                {
+                    "ID": 168,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "artificiality",
+                    "Source_ElementDefinition": "LC_Artificiality",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 169,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "aquacultureType",
+                    "Source_ElementDefinition": "LC_Aquaculture",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 170,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "terrestrialIceType",
+                    "Source_ElementDefinition": "LC_TerrestrialIce",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 171,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "floatingIceType",
+                    "Source_ElementDefinition": "LC_FloatingIce",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 172,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "constructionStatus",
+                    "Source_ElementDefinition": "LC_ConstructionStatus",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 173,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "artificialSurfaceDamageType",
+                    "Source_ElementDefinition": "LC_ArtificialSurfaceDamage",
+                    "Translation": "damage_type"
+                },
+                {
+                    "ID": 174,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "artificialSurfaceDamagePercentage",
+                    "Source_ElementDefinition": "LC_ArtificialSurfaceDamage",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 175,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "constructionUse",
+                    "Source_ElementDefinition": "LC_ConstructionUse",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 175,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "speciesName",
+                    "Source_ElementDefinition": "LC_FloristicAspectSpecies",
+                    "Translation": "species_name"
+                },
+                {
+                    "ID": 176,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "singlePlantSpeciesType",
+                    "Source_ElementDefinition": "LC_SinglePlantSpecies",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 177,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "groupOfPlantSpeciesType",
+                    "Source_ElementDefinition": "LC_GroupOfPlantSpecies",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 178,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "crownDiameter",
+                    "Source_ElementDefinition": "LC_AllometricMeasurements",
+                    "Translation": "crown_diameter"
+                },
+                {
+                    "ID": 179,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "trunkDiameter",
+                    "Source_ElementDefinition": "LC_AllometricMeasurements",
+                    "Translation": "trunk_diameter"
+                },
+                {
+                    "ID": 180,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "age",
+                    "Source_ElementDefinition": "LC_GrowthFormAge",
+                    "Translation": "age"
+                },
+                {
+                    "ID": 181,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "age",
+                    "Source_ElementDefinition": "LC_EvenAge",
+                    "Translation": "age"
+                },
+                {
+                    "ID": 182,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "age",
+                    "Source_ElementDefinition": "LC_MultiUnevenAge",
+                    "Translation": "age"
+                },
+                {
+                    "ID": 183,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "unevenAge",
+                    "Source_ElementDefinition": "LC_MultiUnevenAge",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 184,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "burntStatus",
+                    "Source_ElementDefinition": "LC_BurntStatus",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 185,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "deadStatus",
+                    "Source_ElementDefinition": "LC_DeadStatus",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 186,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "damageType",
+                    "Source_ElementDefinition": "LC_VegetationDamage",
+                    "Translation": "damage_type"
+                },
+                {
+                    "ID": 187,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "damage",
+                    "Source_ElementDefinition": "LC_VegetationDamage",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 188,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "waterStress",
+                    "Source_ElementDefinition": "LC_WaterStress",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 189,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "growthFormIllnessType",
+                    "Source_ElementDefinition": "LC_MultiGrowthIllness",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 190,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "growthFormIllness",
+                    "Source_ElementDefinition": "LC_MultiGrowthIllness",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 191,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "intensity",
+                    "Source_ElementDefinition": "LC_Grazing",
+                    "Translation": "intensity_percentage"
+                },
+                {
+                    "ID": 192,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "animalType",
+                    "Source_ElementDefinition": "LC_GrazingAnimalType",
+                    "Translation": "animal_type"
+                },
+                {
+                    "ID": 193,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "name",
+                    "Source_ElementDefinition": "LC_NaturalOrSeminaturalVegetation",
+                    "Translation": "name"
+                },
+                {
+                    "ID": 194,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "name",
+                    "Source_ElementDefinition": "LC_CultivatedAndManagedVegetation",
+                    "Translation": "name"
+                },
+                {
+                    "ID": 195,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "ploughType",
+                    "Source_ElementDefinition": "LC_Ploughing",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 196,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "frequencyMonth",
+                    "Source_ElementDefinition": "LC_Ploughing",
+                    "Translation": "frequency"
+                },
+                {
+                    "ID": 197,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "mechanicalErosionControl",
+                    "Source_ElementDefinition": "LC_MechanicalErosionControl",
+                    "Translation": "type"
+                },
+                {
+                    "ID": 198,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "fieldSize",
+                    "Source_ElementDefinition": "LC_FieldSize",
+                    "Translation": "size"
+                },
+                {
+                    "ID": 199,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "irrigationType",
+                    "Source_ElementDefinition": "LC_Irrigation",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 200,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "irrigationPercentage",
+                    "Source_ElementDefinition": "LC_Irrigation",
+                    "Translation": "irrigation_type"
+                },
+                {
+                    "ID": 201,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "rainfedPercentage",
+                    "Source_ElementDefinition": "LC_Rainfed",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 202,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "postfloodingPercentage",
+                    "Source_ElementDefinition": "LC_Postflooding",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 203,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "seedingTime",
+                    "Source_ElementDefinition": "LC_CropGrowingParameter",
+                    "Translation": "seeding_time"
+                },
+                {
+                    "ID": 204,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "growingLength",
+                    "Source_ElementDefinition": "LC_CropGrowingParameter",
+                    "Translation": "growing_length"
+                },
+                {
+                    "ID": 205,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "overlapGrowingPeriodPercentage",
+                    "Source_ElementDefinition": "LC_OverlapGrowingToReferenceCrop",
+                    "Translation": "growing_period_percentage"
+                },
+                {
+                    "ID": 206,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "treePlantation",
+                    "Source_ElementDefinition": "LC_ForestPlantation",
+                    "Translation": "name"
+                },
+                {
+                    "ID": 207,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "orchardAndOtherPlantation",
+                    "Source_ElementDefinition": "LC_OrchardAndOtherPlantation",
+                    "Translation": "name"
+                },
+                {
+                    "ID": 208,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "yield",
+                    "Source_ElementDefinition": "LC_CropYield",
+                    "Translation": "yield"
+                },
+                {
+                    "ID": 209,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "evergreenPercentage",
+                    "Source_ElementDefinition": "LC_Evergreen",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 210,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "deciduousPercentage",
+                    "Source_ElementDefinition": "LC_Deciduous",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 211,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "deciduousStart",
+                    "Source_ElementDefinition": "LC_Deciduous",
+                    "Translation": "start"
+                },
+                {
+                    "ID": 212,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "deciduousLength",
+                    "Source_ElementDefinition": "LC_Deciduous",
+                    "Translation": "length"
+                },
+                {
+                    "ID": 213,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "broadLeafPercentage",
+                    "Source_ElementDefinition": "LC_Broadleaved",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 214,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "leafArragement",
+                    "Source_ElementDefinition": "LC_Broadleaved",
+                    "Translation": "arrangement"
+                },
+                {
+                    "ID": 215,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "leafShape",
+                    "Source_ElementDefinition": "LC_Broadleaved",
+                    "Translation": "shape"
+                },
+                {
+                    "ID": 216,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "leafVenation",
+                    "Source_ElementDefinition": "LC_Broadleaved",
+                    "Translation": "venation"
+                },
+                {
+                    "ID": 217,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "needleLeafPercentage",
+                    "Source_ElementDefinition": "LC_Needleleaved",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 218,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "aphyllousPercentage",
+                    "Source_ElementDefinition": "LC_Aphillous",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 219,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "nonPerennialGrowthFrequency",
+                    "Source_ElementDefinition": "LC_Annual",
+                    "Translation": "name"
+                },
+                {
+                    "ID": 220,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "nonPerennialGrowthFrequency",
+                    "Source_ElementDefinition": "LC_Biennial",
+                    "Translation": "name"
+                },
+                {
+                    "ID": 221,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "perennialPercentage",
+                    "Source_ElementDefinition": "LC_Perennial",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 222,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "nonPerennialPercentage",
+                    "Source_ElementDefinition": "LC_Annual",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 223,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "nonPerennialPercentage",
+                    "Source_ElementDefinition": "LC_Biennial",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 224,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "herbaceousBroadLeafPercentage",
+                    "Source_ElementDefinition": "LC_HerbaceousBroadleaved",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 225,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "herbaceousLeafArragement",
+                    "Source_ElementDefinition": "LC_HerbaceousBroadleaved",
+                    "Translation": "arrangement"
+                },
+                {
+                    "ID": 226,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "herbaceousLeafShape",
+                    "Source_ElementDefinition": "LC_HerbaceousBroadleaved",
+                    "Translation": "shape"
+                },
+                {
+                    "ID": 227,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "herbaceousLeafVenation",
+                    "Source_ElementDefinition": "LC_HerbaceousBroadleaved",
+                    "Translation": "venation"
+                },
+                {
+                    "ID": 228,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "herbaceousNeedleLeafPercentage",
+                    "Source_ElementDefinition": "LC_HerbaceousNeedleleaved",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 229,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "forbsBroadLeafPercentage",
+                    "Source_ElementDefinition": "LC_ForbsBroadleaved",
+                    "Translation": "percentage"
+                },
+                {
+                    "ID": 230,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "forbsLeafArragement",
+                    "Source_ElementDefinition": "LC_ForbsBroadleaved",
+                    "Translation": "arrangement"
+                },
+                {
+                    "ID": 231,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "forbsLeafShape",
+                    "Source_ElementDefinition": "LC_ForbsBroadleaved",
+                    "Translation": "shape"
+                },
+                {
+                    "ID": 232,
+                    "LChS_ElementDefinition": "['LC_Characteristics']",
+                    "LChS_EquivalentElement": "forbsLeafVenation",
+                    "Source_ElementDefinition": "LC_ForbsBroadleaved",
+                    "Translation": "venation"
+                }
+            ]
+        },
+        "csv": {
+            "LC_Class": [
+                {
+                    "ID": 233,
+                    "LChS_ElementDefinition": "[0]['elements'][0]",
+                    "LChS_EquivalentElement": "class_id",
+                    "Source_ElementDefinition": null,
+                    "Translation": "ID"
+                },
+                {
+                    "ID": 234,
+                    "LChS_ElementDefinition": "[0]['elements'][4]",
+                    "LChS_EquivalentElement": "class_color_code",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Color Code(Hex)"
+                },
+                {
+                    "ID": 235,
+                    "LChS_ElementDefinition": "[0]['elements'][3]",
+                    "LChS_EquivalentElement": "class_map_code",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Class Code"
+                },
+                {
+                    "ID": 236,
+                    "LChS_ElementDefinition": "[0]['elements'][1]",
+                    "LChS_EquivalentElement": "class_name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Class Name"
+                },
+                {
+                    "ID": 237,
+                    "LChS_ElementDefinition": "[0]['elements'][2]",
+                    "LChS_EquivalentElement": "class_description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Class Description"
+                }
+            ],
+            "LC_ClassElements": [
+                {
+                    "ID": 238,
+                    "LChS_ElementDefinition": "[0]['elements'][0]",
+                    "LChS_EquivalentElement": "ID",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Class ID"
+                },
+                {
+                    "ID": 239,
+                    "LChS_ElementDefinition": "[0]['elements'][4]",
+                    "LChS_EquivalentElement": "Color Code(Hex)",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Color Code"
+                },
+                {
+                    "ID": 240,
+                    "LChS_ElementDefinition": "[0]['elements'][1]",
+                    "LChS_EquivalentElement": "Class Name",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Name"
+                },
+                {
+                    "ID": 241,
+                    "LChS_ElementDefinition": "[0]['elements'][2]",
+                    "LChS_EquivalentElement": "Class Description",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Description"
+                }
+            ],
+            "LC_Blocks": [
+                {
+                    "ID": 242,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Vegetation"
+                },
+                {
+                    "ID": 243,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Vegetation"
+                },
+                {
+                    "ID": 244,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Plant"
+                },
+                {
+                    "ID": 245,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_AbioticElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_AbioticSurface"
+                },
+                {
+                    "ID": 246,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_AbioticElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Abiotic"
+                },
+                {
+                    "ID": 247,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GrowthForms"
+                },
+                {
+                    "ID": 248,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Growth Form"
+                },
+                {
+                    "ID": 249,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WoodyGrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WoodyGrowthForms"
+                },
+                {
+                    "ID": 250,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WoodyGrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Woody Growth Form"
+                },
+                {
+                    "ID": 251,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_HerbaceousGrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_HerbaceousGrowthForms"
+                },
+                {
+                    "ID": 252,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_HerbaceousGrowthForm",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Herbaceous Growth Form"
+                },
+                {
+                    "ID": 253,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_LichenAndMosses"
+                },
+                {
+                    "ID": 254,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Lichen&Mosses"
+                },
+                {
+                    "ID": 255,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Lichen And Mosses"
+                },
+                {
+                    "ID": 256,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Lichen&Mosses"
+                },
+                {
+                    "ID": 257,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Lichen & Mosses"
+                },
+                {
+                    "ID": 258,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Lichen And Mosse"
+                },
+                {
+                    "ID": 259,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Lichen&Mosse"
+                },
+                {
+                    "ID": 260,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Lichen & Mosse"
+                },
+                {
+                    "ID": 261,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Mosses And Lichen"
+                },
+                {
+                    "ID": 262,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Mosses&Lichen"
+                },
+                {
+                    "ID": 263,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LichenAndMoss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Mosses & Lichen"
+                },
+                {
+                    "ID": 264,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Lichen",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Lichen"
+                },
+                {
+                    "ID": 265,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Moss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Moss"
+                },
+                {
+                    "ID": 266,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Moss",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Mosses"
+                },
+                {
+                    "ID": 267,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Algae",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Algae"
+                },
+                {
+                    "ID": 268,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ArtificialSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ArtificialSurface"
+                },
+                {
+                    "ID": 269,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ArtificialSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Artificial"
+                },
+                {
+                    "ID": 270,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NaturalSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_NaturalSurface"
+                },
+                {
+                    "ID": 271,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NaturalSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Natural"
+                },
+                {
+                    "ID": 272,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBodyAndAssociatedSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterBodyAndAssociatedSurface"
+                },
+                {
+                    "ID": 273,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBodyAndAssociatedSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterBody&AssociatedSurface"
+                },
+                {
+                    "ID": 274,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBodyAndAssociatedSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Water Body And Associated Surface"
+                },
+                {
+                    "ID": 275,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBodyAndAssociatedSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "WaterBody&AssociatedSurface"
+                },
+                {
+                    "ID": 276,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBodyAndAssociatedSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Water Body & Associated Surface"
+                },
+                {
+                    "ID": 277,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Tree",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Trees"
+                },
+                {
+                    "ID": 278,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Tree",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Tree"
+                },
+                {
+                    "ID": 279,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Shrub",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Shrubs"
+                },
+                {
+                    "ID": 280,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Shrub",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Shrub"
+                },
+                {
+                    "ID": 281,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Forbs",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Forbs"
+                },
+                {
+                    "ID": 282,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Forbs",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Forb"
+                },
+                {
+                    "ID": 283,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Graminoid",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Graminoid"
+                },
+                {
+                    "ID": 284,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Graminoid",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Graminae"
+                },
+                {
+                    "ID": 285,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Graminoid",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Graminoid"
+                },
+                {
+                    "ID": 286,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Graminoid",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Graminae"
+                },
+                {
+                    "ID": 287,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Graminoid",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Grass"
+                },
+                {
+                    "ID": 288,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Graminoid",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Grasses"
+                },
+                {
+                    "ID": 289,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBody",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterBody"
+                },
+                {
+                    "ID": 290,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBody",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Water Body"
+                },
+                {
+                    "ID": 291,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterBody",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Water Bodies"
+                },
+                {
+                    "ID": 292,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Snow",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Snow"
+                },
+                {
+                    "ID": 293,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Snow",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Snow"
+                },
+                {
+                    "ID": 294,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Ice",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Ice"
+                },
+                {
+                    "ID": 295,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Ice",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Ice"
+                },
+                {
+                    "ID": 296,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_TerrestrialIce",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_TerrestrialIce"
+                },
+                {
+                    "ID": 297,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_TerrestrialIce",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Terrestrial Ice"
+                },
+                {
+                    "ID": 298,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloatingIce",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_FloatingIce"
+                },
+                {
+                    "ID": 299,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloatingIce",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Floating Ice"
+                },
+                {
+                    "ID": 300,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ConstructionStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ConstructionStatus"
+                },
+                {
+                    "ID": 301,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ConstructionStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Construction Status"
+                },
+                {
+                    "ID": 302,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ConstructionStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Construction Statuses"
+                },
+                {
+                    "ID": 303,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ArtificialSurfaceDamageCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ArtificialSurfaceDamage"
+                },
+                {
+                    "ID": 304,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ArtificialSurfaceDamageCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Artificial Surface Damage"
+                },
+                {
+                    "ID": 305,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_ArtificialSurfaceDamageCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Artificial Surface Damages"
+                },
+                {
+                    "ID": 306,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_NonBuiltUpSurface"
+                },
+                {
+                    "ID": 307,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "NonBuiltUpSurface"
+                },
+                {
+                    "ID": 308,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Non-BuiltUpSurface"
+                },
+                {
+                    "ID": 309,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Non-Built-UpSurface"
+                },
+                {
+                    "ID": 310,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Non-Built-Up"
+                },
+                {
+                    "ID": 311,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Non-Built Up"
+                },
+                {
+                    "ID": 312,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Non Built Up"
+                },
+                {
+                    "ID": 313,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Non Built-Up"
+                },
+                {
+                    "ID": 314,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "NonBuilt-Up"
+                },
+                {
+                    "ID": 315,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "NonBuiltUp"
+                },
+                {
+                    "ID": 316,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonBuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "NonBuilt"
+                },
+                {
+                    "ID": 317,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_BuiltUpSurface"
+                },
+                {
+                    "ID": 318,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "BuiltUpSurface"
+                },
+                {
+                    "ID": 319,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Built-UpSurface"
+                },
+                {
+                    "ID": 320,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Built Up"
+                },
+                {
+                    "ID": 321,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "BuiltUp"
+                },
+                {
+                    "ID": 322,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BuiltUpSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Built-Up"
+                },
+                {
+                    "ID": 323,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Permafrost",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Permafrost"
+                },
+                {
+                    "ID": 324,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Permafrost",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Permafrost"
+                },
+                {
+                    "ID": 325,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_RocksSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_RocksSurface"
+                },
+                {
+                    "ID": 326,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_RocksSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Rocks Surface"
+                },
+                {
+                    "ID": 327,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_RocksSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Rock"
+                },
+                {
+                    "ID": 328,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_SoilSandDepositSurface"
+                },
+                {
+                    "ID": 329,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil Sand Deposits Surface"
+                },
+                {
+                    "ID": 330,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil and Sand Deposits Surface"
+                },
+                {
+                    "ID": 331,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil & Sand Deposits Surface"
+                },
+                {
+                    "ID": 332,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil Sand Deposit Surface"
+                },
+                {
+                    "ID": 333,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil and Sand Deposit Surface"
+                },
+                {
+                    "ID": 334,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil & Sand Deposit Surface"
+                },
+                {
+                    "ID": 335,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil Sand Deposit"
+                },
+                {
+                    "ID": 336,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil and Sand Deposit"
+                },
+                {
+                    "ID": 337,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil & Sand Deposit"
+                },
+                {
+                    "ID": 338,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil Sand"
+                },
+                {
+                    "ID": 339,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil and Sand"
+                },
+                {
+                    "ID": 340,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil & Sand"
+                },
+                {
+                    "ID": 341,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Soil"
+                },
+                {
+                    "ID": 342,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_SoilSandDepositsSurfaceElement",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Sand"
+                },
+                {
+                    "ID": 343,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BareRock",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_BareRocks"
+                },
+                {
+                    "ID": 344,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BareRock",
+                    "Source_ElementDefinition": null,
+                    "Translation": "BareRock"
+                },
+                {
+                    "ID": 345,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BareRock",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Bare Rock"
+                },
+                {
+                    "ID": 346,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Hardpan",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Hardpans"
+                },
+                {
+                    "ID": 347,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Hardpan",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Hardpan"
+                },
+                {
+                    "ID": 348,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Hardpan",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Hard pan"
+                },
+                {
+                    "ID": 349,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DumpSite",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_DumpSite"
+                },
+                {
+                    "ID": 350,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DumpSite",
+                    "Source_ElementDefinition": null,
+                    "Translation": "DumpSite"
+                },
+                {
+                    "ID": 351,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DumpSite",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Dump Site"
+                },
+                {
+                    "ID": 352,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DumpSite",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Dump"
+                },
+                {
+                    "ID": 353,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Extraction",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Extraction"
+                },
+                {
+                    "ID": 354,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Extraction",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Extraction"
+                },
+                {
+                    "ID": 355,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonLinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_NonLinearSurface"
+                },
+                {
+                    "ID": 356,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonLinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "NonLinearSurface"
+                },
+                {
+                    "ID": 357,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonLinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Non Linear Surface"
+                },
+                {
+                    "ID": 358,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_NonLinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Non-Linear Surface"
+                },
+                {
+                    "ID": 359,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_LinearSurface"
+                },
+                {
+                    "ID": 360,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LinearSurface"
+                },
+                {
+                    "ID": 361,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Linear Surface"
+                },
+                {
+                    "ID": 362,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Road"
+                },
+                {
+                    "ID": 363,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Road"
+                },
+                {
+                    "ID": 364,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Railway"
+                },
+                {
+                    "ID": 365,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Railway"
+                },
+                {
+                    "ID": 366,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CommunicationsAndOther"
+                },
+                {
+                    "ID": 367,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Communications&Other"
+                },
+                {
+                    "ID": 368,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "CommunicationsAndOther"
+                },
+                {
+                    "ID": 369,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Communications And Other"
+                },
+                {
+                    "ID": 370,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Communication"
+                },
+                {
+                    "ID": 371,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Communications&Other"
+                },
+                {
+                    "ID": 372,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LinearSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Communications & Other"
+                },
+                {
+                    "ID": 373,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Building",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Building"
+                },
+                {
+                    "ID": 374,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Building",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Building"
+                },
+                {
+                    "ID": 375,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherConstruction",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OtherConstruction"
+                },
+                {
+                    "ID": 376,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherConstruction",
+                    "Source_ElementDefinition": null,
+                    "Translation": "OtherConstruction"
+                },
+                {
+                    "ID": 377,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherConstruction",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Other Construction"
+                },
+                {
+                    "ID": 378,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherConstruction",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Construction"
+                },
+                {
+                    "ID": 379,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherArtificialSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OtherArtificialSurface"
+                },
+                {
+                    "ID": 380,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherArtificialSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "OtherArtificialSurface"
+                },
+                {
+                    "ID": 381,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherArtificialSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Other Artificial Surface"
+                },
+                {
+                    "ID": 382,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OtherArtificialSurface",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Other Artificial"
+                },
+                {
+                    "ID": 383,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_LooseAndShiftingSand"
+                },
+                {
+                    "ID": 384,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Loose&ShiftingSand"
+                },
+                {
+                    "ID": 385,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LooseAndShiftingSand"
+                },
+                {
+                    "ID": 386,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Loose And Shifting Sand"
+                },
+                {
+                    "ID": 387,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LooseSand"
+                },
+                {
+                    "ID": 388,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Loose Sand"
+                },
+                {
+                    "ID": 389,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "ShiftingSand"
+                },
+                {
+                    "ID": 390,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Shifting Sand"
+                },
+                {
+                    "ID": 391,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Sand"
+                },
+                {
+                    "ID": 392,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Loose&ShiftingSand"
+                },
+                {
+                    "ID": 393,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_LooseAndShiftingSand",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Loose & Shifting Sand"
+                },
+                {
+                    "ID": 394,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Dune",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Dune"
+                },
+                {
+                    "ID": 395,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Dune",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Dune"
+                },
+                {
+                    "ID": 396,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Deposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Deposits"
+                },
+                {
+                    "ID": 397,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_Deposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Deposit"
+                },
+                {
+                    "ID": 398,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_InorganicDeposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_InorganicDeposits"
+                },
+                {
+                    "ID": 399,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_InorganicDeposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "InorganicDeposit"
+                },
+                {
+                    "ID": 400,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_InorganicDeposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Inorganic Deposit"
+                },
+                {
+                    "ID": 401,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OrganicDeposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OrganicDeposits"
+                },
+                {
+                    "ID": 402,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OrganicDeposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "OrganicDeposit"
+                },
+                {
+                    "ID": 403,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_OrganicDeposits",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Organic Deposit"
+                },
+                {
+                    "ID": 404,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_FloristicAspect"
+                },
+                {
+                    "ID": 405,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Floristic Aspect"
+                },
+                {
+                    "ID": 406,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_FloristicAspectSpecies"
+                },
+                {
+                    "ID": 407,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "FloristicAspectSpecies"
+                },
+                {
+                    "ID": 408,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Floristic Aspect Species"
+                },
+                {
+                    "ID": 409,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_SinglePlantSpecies"
+                },
+                {
+                    "ID": 410,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "SinglePlantSpecies"
+                },
+                {
+                    "ID": 411,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Single Plant Species"
+                },
+                {
+                    "ID": 412,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Single-Plant Species"
+                },
+                {
+                    "ID": 413,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GroupOfPlantSpecies"
+                },
+                {
+                    "ID": 414,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "GroupOfPlantSpecies"
+                },
+                {
+                    "ID": 415,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Group Of Plant Species"
+                },
+                {
+                    "ID": 416,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GroupPlantSpecies"
+                },
+                {
+                    "ID": 417,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "GroupPlantSpecies"
+                },
+                {
+                    "ID": 418,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_FloristicAspectsCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Group Plant Species"
+                },
+                {
+                    "ID": 419,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GrowthFormAge"
+                },
+                {
+                    "ID": 420,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "GrowthFormAge"
+                },
+                {
+                    "ID": 421,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Growth Form Age"
+                },
+                {
+                    "ID": 422,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_EvenAge"
+                },
+                {
+                    "ID": 423,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "EvenAge"
+                },
+                {
+                    "ID": 424,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Even Age"
+                },
+                {
+                    "ID": 425,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_UnevenAge"
+                },
+                {
+                    "ID": 426,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "UnevenAge"
+                },
+                {
+                    "ID": 427,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormAgeCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Uneven Age"
+                },
+                {
+                    "ID": 428,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BurntStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_BurntStatus"
+                },
+                {
+                    "ID": 429,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BurntStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "BurntStatus"
+                },
+                {
+                    "ID": 430,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BurntStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Burnt Status"
+                },
+                {
+                    "ID": 431,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BurntStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_BurnStatus"
+                },
+                {
+                    "ID": 432,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BurntStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "BurnStatus"
+                },
+                {
+                    "ID": 433,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_BurntStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Burn Status"
+                },
+                {
+                    "ID": 434,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DeadStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_DeadStatus"
+                },
+                {
+                    "ID": 435,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DeadStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "DeadStatus"
+                },
+                {
+                    "ID": 436,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DeadStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Dead Status"
+                },
+                {
+                    "ID": 437,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DeadStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_DeathStatus"
+                },
+                {
+                    "ID": 438,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DeadStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "DeathStatus"
+                },
+                {
+                    "ID": 439,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_DeadStatusCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Death Status"
+                },
+                {
+                    "ID": 440,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationDamageCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_VegetationDamage"
+                },
+                {
+                    "ID": 441,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationDamageCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "VegetationDamage"
+                },
+                {
+                    "ID": 442,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationDamageCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Vegetation Damage"
+                },
+                {
+                    "ID": 443,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterStressCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_WaterStress"
+                },
+                {
+                    "ID": 444,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterStressCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "WaterStress"
+                },
+                {
+                    "ID": 445,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_WaterStressCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Water Stress"
+                },
+                {
+                    "ID": 446,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormIllnessCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_GrowthFormIllness"
+                },
+                {
+                    "ID": 447,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormIllnessCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "GrowthFormIllness"
+                },
+                {
+                    "ID": 448,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormIllnessCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "GrowthForm Illness"
+                },
+                {
+                    "ID": 449,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormIllnessCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Growth Form Illness"
+                },
+                {
+                    "ID": 450,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormIllnessCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "GrowthFormIllnesses"
+                },
+                {
+                    "ID": 451,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormIllnessCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "GrowthForm Illnesses"
+                },
+                {
+                    "ID": 452,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrowthFormIllnessCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Growth Form Illnesses"
+                },
+                {
+                    "ID": 453,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrazedCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Grazing"
+                },
+                {
+                    "ID": 454,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrazedCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Grazing"
+                },
+                {
+                    "ID": 455,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_GrazedCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Graze"
+                },
+                {
+                    "ID": 456,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_MowedCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Mowed"
+                },
+                {
+                    "ID": 457,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_MowedCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Mowed"
+                },
+                {
+                    "ID": 458,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_NaturalOrSeminaturalVegetation"
+                },
+                {
+                    "ID": 459,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "NaturalOrSeminaturalVegetation"
+                },
+                {
+                    "ID": 460,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Natural Or Seminatural Vegetation"
+                },
+                {
+                    "ID": 461,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Natural Vegetation"
+                },
+                {
+                    "ID": 462,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Seminatural Vegetation"
+                },
+                {
+                    "ID": 463,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CultivatedAndManagedVegetation"
+                },
+                {
+                    "ID": 464,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "CultivatedAndManagedVegetation"
+                },
+                {
+                    "ID": 465,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Cultivated And Managed Vegetation"
+                },
+                {
+                    "ID": 466,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Cultivated&ManagedVegetation"
+                },
+                {
+                    "ID": 467,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Cultivated&ManagedVegetation"
+                },
+                {
+                    "ID": 468,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Cultivated & Managed Vegetation"
+                },
+                {
+                    "ID": 469,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Cultivated Vegetation"
+                },
+                {
+                    "ID": 470,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_VegetationArtificialityCharacteristic",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Managed Vegetation"
+                },
+                {
+                    "ID": 471,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Ploughing"
+                },
+                {
+                    "ID": 472,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Ploughing"
+                },
+                {
+                    "ID": 473,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Plough"
+                },
+                {
+                    "ID": 474,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Plowing"
+                },
+                {
+                    "ID": 475,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Plowing"
+                },
+                {
+                    "ID": 476,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Plow"
+                },
+                {
+                    "ID": 477,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Plough"
+                },
+                {
+                    "ID": 478,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Plow"
+                },
+                {
+                    "ID": 479,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_MechanicalErosionControl"
+                },
+                {
+                    "ID": 480,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "MechanicalErosionControl"
+                },
+                {
+                    "ID": 481,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Mechanical Erosion Control"
+                },
+                {
+                    "ID": 482,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ErosionControl"
+                },
+                {
+                    "ID": 483,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "ErosionControl"
+                },
+                {
+                    "ID": 484,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Erosion Control"
+                },
+                {
+                    "ID": 485,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_FieldSize"
+                },
+                {
+                    "ID": 486,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "FieldSize"
+                },
+                {
+                    "ID": 487,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Field Size"
+                },
+                {
+                    "ID": 488,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Irrigation"
+                },
+                {
+                    "ID": 489,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Irrigation"
+                },
+                {
+                    "ID": 490,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Rainfed"
+                },
+                {
+                    "ID": 491,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Rainfed"
+                },
+                {
+                    "ID": 492,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Rain fed"
+                },
+                {
+                    "ID": 493,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Rain-fed"
+                },
+                {
+                    "ID": 494,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Postflooding"
+                },
+                {
+                    "ID": 495,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Postflooding"
+                },
+                {
+                    "ID": 496,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Post flooding"
+                },
+                {
+                    "ID": 497,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Post-flooding"
+                },
+                {
+                    "ID": 498,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CropGrowingParameter"
+                },
+                {
+                    "ID": 499,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "CropGrowingParameter"
+                },
+                {
+                    "ID": 500,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Crop Growing Parameter"
+                },
+                {
+                    "ID": 501,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OverlapGrowingToReferenceCrop"
+                },
+                {
+                    "ID": 502,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "OverlapGrowingToReferenceCrop"
+                },
+                {
+                    "ID": 503,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Overlap Growing To Reference Crop"
+                },
+                {
+                    "ID": 504,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_ForestPlantation"
+                },
+                {
+                    "ID": 505,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "ForestPlantation"
+                },
+                {
+                    "ID": 506,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Forest Plantation"
+                },
+                {
+                    "ID": 507,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CultivatedForest"
+                },
+                {
+                    "ID": 508,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "CultivatedForest"
+                },
+                {
+                    "ID": 509,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Cultivated Forest"
+                },
+                {
+                    "ID": 510,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OrchardAndOtherPlantation"
+                },
+                {
+                    "ID": 511,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "OrchardAndOtherPlantation"
+                },
+                {
+                    "ID": 512,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Orchard And Other Plantation"
+                },
+                {
+                    "ID": 513,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Orchard&OtherPlantation"
+                },
+                {
+                    "ID": 514,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Orchard&OtherPlantation"
+                },
+                {
+                    "ID": 515,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Orchard & Other Plantation"
+                },
+                {
+                    "ID": 516,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Orchard"
+                },
+                {
+                    "ID": 517,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Orchard"
+                },
+                {
+                    "ID": 518,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_OtherPlantation"
+                },
+                {
+                    "ID": 519,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "OtherPlantation"
+                },
+                {
+                    "ID": 520,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Other Plantation"
+                },
+                {
+                    "ID": 521,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_CropYield"
+                },
+                {
+                    "ID": 522,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "CropYield"
+                },
+                {
+                    "ID": 523,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Crop Yield"
+                },
+                {
+                    "ID": 524,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "LC_Yield"
+                },
+                {
+                    "ID": 525,
+                    "LChS_ElementDefinition": null,
+                    "LChS_EquivalentElement": "LC_CultivatedAndManagedVegetationCharacteristics",
+                    "Source_ElementDefinition": null,
+                    "Translation": "Yield"
+                }
+            ]
+        }
+    }

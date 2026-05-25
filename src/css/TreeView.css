@@ -1,0 +1,21 @@
+.p-tree {
+    font-size: xx-small;
+    margin: 0;
+    padding: 0;
+}
+
+.p-treenode {
+    font-size: xx-small;
+    margin: 0;
+    padding: 0;
+}
+
+.p-treenode-content {
+    font-size: xx-small;
+    margin: 0;
+    padding: 0;
+}
+
+.p-treenode-children {
+    font-size: xx-small;
+}

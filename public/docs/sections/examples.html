@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LChS Documentation - Examples</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/script.js" defer></script>
+    <script src="../assets/js/toc.js" defer></script>
+    </head>
+  <body>
+    <header id="header">
+      <div class="brand">
+        <img src="../assets/images/fao_logo.svg" alt="FAO Logo">
+        <h1>Land CHaracterization System Documentation</h1>
+      </div>
+      <div class="search-wrap">
+        <input id="search-box" type="search" placeholder="Search documentation…" aria-label="Search documentation">
+        <div id="search-results" role="listbox" aria-label="Search results"></div>
+      </div>
+    </header>
+    <nav class="sidebar" id="sidebar">
+      <script>
+      fetch("sidebar.txt")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("sidebar").innerHTML = html;
+        });
+      </script>
+    </nav>
+    <main>
+      <h2>Examples</h2>
+
+      <h3>I. Mangroves</h3>
+      <div style="display: flex; flex-direction: row; align-items: start;">
+        <div style="width: 30%; max-height: 80vh; overflow: auto; padding: 2px;">
+          <ul>
+            <li><b>Class Name:</b> Mangroves</li>
+            <li><b>Class Code:</b> MNG</li>
+            <li><b>Class Description:</b> The mangroves are defined by two distinct strata. The first stratum is <b>woody growth forms</b> with a vegetation
+                  cover ranging from <b>40 to 100 percent</b>. Vegetation height varies between <b>1 and 20 meters</b>, and the leaf
+                  phenological characteristic is <b>evergreen</b>. The floristic aspect of the mangroves comprises of species <b><i>Rhizophora sp</i></b>.
+
+                  The second stratum is <b>water</b>, with the coverage ranging from <b>0 to 100 percent</b>. The water salinity is defined as
+                  <b>brackish</b>, and the artificiality is <b>natural</b>.
+            </li>
+            <li><b>Class Images:</b> 
+                <figure class="placeholder">
+                  <img src="../assets/images/LC_Mangroves.png" style="max-width: 80%; margin: auto; display: block;" alt="Mangroves in the Cross River state, Nigeria. (Source: https://www.environewsnigeria.com/)"/>
+                  <div>Field Photo: Mangroves in the Cross River state, Nigeria.</div>
+                  <span style="font-size: xx-small; text-align: center;">(Source: https://www.environewsnigeria.com/)</span>
+                </figure>
+                <figure class="placeholder">
+                  <img src="../assets/images/LC_Mangroves_Diagram.png" style="max-width: 80%; margin: auto; display: block;" alt="Diagram of the Mangroves class"/>
+                  <div>LChS Diagram: Mangroves class.</div>
+                </figure>
+            </li>
+          </ul>
+        </div>
+        <div style="width: 70%;">
+          <figure class="placeholder">
+            <video width="80%" loop controls preload="metadata">
+              <source src="../assets/videos/LC_Mangroves.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <div>Video: Creating the Mangroves class.</div>
+          </figure>
+        </div>
+      </div>
+
+    </main>
+    <footer id="footer">
+      <script>
+      fetch("footer.txt")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("footer").innerHTML = html;
+        });
+      </script>
+    </footer>
+  </body>
+</html>

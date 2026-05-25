@@ -1,0 +1,727 @@
+{
+    "LC_Legend": [
+            {
+                "legend_id": 1,
+                "legend_name": "Legend",
+                "legend_label": "Legend",
+                "legend_description": "Legend description",
+                "legend_icon": "text-xs p-1 m-1 pi pi-fw pi-briefcase",
+                "legend_reference": "LC_Legend",
+                "elements": [
+                    {
+                        "element_name": "legend_name",
+                        "element_label": "Legend Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": true,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "legend_description",
+                        "element_label": "Legend Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": true,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "legend_author",
+                        "element_label": "Author",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": true,
+                            "order": 2,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    }
+                ]
+            }
+        ],
+    
+        "LC_Class": [
+            {
+                "class_id": 2,
+                "class_name": "Class",
+                "class_label": "Class",
+                "class_description": "Legend class description",
+                "class_icon": "text-xs p-0 m-1 pi pi-fw pi-folder-open",
+                "class_reference": "LC_Class",
+                "elements": [
+                    {
+                        "element_name": "class_id",
+                        "element_label": "Class ID",
+                        "element_type": "Number",
+                        "element_rules": {
+                            "required": true,
+                            "order": 0,
+                            "min": 1,
+                            "max": 1000,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "class_name",
+                        "element_label": "Class Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": true,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "class_description",
+                        "element_label": "Class Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": true,
+                            "order": 2,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "class_map_code",
+                        "element_label": "Code",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": true,
+                            "order": 3,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "class_color_code",
+                        "element_label": "Color Code",
+                        "element_type": "Color",
+                        "element_rules": {
+                            "required": true,
+                            "order": 4,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "#",
+                            "list": ""
+                        }
+                    }
+                ]
+            }
+        ],
+    "LC_ClassCharacteristics": [
+            {
+                "characteristic_id": 4,
+                "characteristic_name": "climate",
+                "characteristic_label": "Climate",
+                "characteristic_description": "Legend class climate characteristic",
+                "characteristic_icon": "pi pi-sun",
+                "characteristic_reference": "LC_ClimateCharacteristic",
+                "elements": [
+                    {
+                        "element_name": "climate-name",
+                        "element_label": "Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "climate-description",
+                        "element_label": "Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "climate-lengthOfGrowingPeriod",
+                        "element_label": "Length of Growing Period",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 2,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['GrowthPeriods']"
+                        }
+                    },
+                    {
+                        "element_name": "climate-type",
+                        "element_label": "Climate Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 3,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['ClimateTypes']"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 5,
+                "characteristic_name": "land_form",
+                "characteristic_label": "Land form",
+                "characteristic_description": "Legend class land form characteristic",
+                "characteristic_icon": "fa-solid fa-mountain-city",
+                "characteristic_reference": "LC_LandFormCharacteristic",
+                "elements": [
+                    {
+                        "element_name": "land_form-name",
+                        "element_label": "Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "land_form-description",
+                        "element_label": "Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "land_form-slopeClassType",
+                        "element_label": "Slope Class Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 2,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['SlopeClassTypes']"
+                        }
+                    },
+                    {
+                        "element_name": "land_form-type",
+                        "element_label": "Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 3,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['LandFormTypes']"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 6,
+                "characteristic_name": "geographical_aspects",
+                "characteristic_label": "Geographical aspects",
+                "characteristic_description": "Legend class geographical aspects characteristic",
+                "characteristic_icon": "fa-solid fa-earth-americas",
+                "characteristic_reference": "LC_GeographicalAspectsCharacteristic",
+                "elements": [
+                    {
+                        "element_name": "geographical_aspects-name",
+                        "element_label": "Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "geographical_aspects-description",
+                        "element_label": "Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "geographical_aspects-type",
+                        "element_label": "Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 2,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['GeoAspectTypes']"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 7,
+                "characteristic_name": "topographical_aspects",
+                "characteristic_label": "Topographical aspects",
+                "characteristic_description": "Legend class topographical aspects characteristic",
+                "characteristic_icon": "fa-solid fa-route",
+                "characteristic_reference": "LC_TopographicalAspectsCharacteristic",
+                "elements": [
+                    {
+                        "element_name": "topographical_aspects-name",
+                        "element_label": "Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "topographical_aspects-description",
+                        "element_label": "Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "topographical_aspects-altitude",
+                        "element_label": "Altitude",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 2,
+                            "min": 0,
+                            "max": 9999,
+                            "unit": "Metre",
+                            "symbol": "m",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "topographical_aspects-slopeExposition",
+                        "element_label": "Slope Exposition",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 3,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['Directions']"
+                        }
+                    },
+                    {
+                        "element_name": "topographical_aspects-slope",
+                        "element_label": "Slope Percentage",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 4,
+                            "min": 0,
+                            "max": 99,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 8,
+                "characteristic_name": "rock_surface_characteristics",
+                "characteristic_label": "Rock surface",
+                "characteristic_description": "Legend class rock surface characteristics",
+                "characteristic_icon": "fa-solid fa-hill-rockslide",
+                "characteristic_reference": "LC_RocksSurfaceCharacteristic",
+                "elements": [
+                    {
+                        "element_name": "rock_surface_characteristics-name",
+                        "element_label": "Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "rock_surface_characteristics-description",
+                        "element_label": "Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "rock_surface_characteristics-ageType",
+                        "element_label": "Rock Age Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 2,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['RockAgeTypes']"
+                        }
+                    },
+                    {
+                        "element_name": "rock_surface_characteristics-type",
+                        "element_label": "Rock Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 3,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 9,
+                "characteristic_name": "soil_sand_deposits_surface_characteristics",
+                "characteristic_label": "Soils & sand deposits",
+                "characteristic_description": "Legend class soils & sand deposits surface characteristics",
+                "characteristic_icon": "fa-solid fa-hand-dots",
+                "characteristic_reference": "LC_SoilSandDepositsSurfaceCharacteristic",
+                "elements": [
+                    {
+                        "element_name": "soil_sand_deposits_surface_characteristics-name",
+                        "element_label": "Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "soil_sand_deposits_surface_characteristics-description",
+                        "element_label": "Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "soil_sand_deposits_surface_characteristics-erosionType",
+                        "element_label": "Erosion Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 2,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['ErosionTypes']"
+                        }
+                    },
+                    {
+                        "element_name": "soil_sand_deposits_surface_characteristics-sedimentationType",
+                        "element_label": "Sedimentation Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 3,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "soil_sand_deposits_surface_characteristics-soilType",
+                        "element_label": "Soil Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 4,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    }
+                ]
+            }
+        ],
+    "LC_Patterns": [
+            {
+                "pattern_id": 10,
+                "pattern_name": "horizontal_pattern",
+                "pattern_label": "Horizontal pattern",
+                "pattern_description": "Legend class horizontal pattern",
+                "pattern_icon": "text-xs p-1 m-1 pi pi-fw pi-bars",
+                "pattern_reference": "LC_HorizontalPattern",
+                "elements": [
+                    {
+                        "element_name": "name",
+                        "element_label": "Name",
+                        "element_type": "ReadOnly",
+                        "element_rules": {
+                            "required": true,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "description",
+                        "element_label": "Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "cover",
+                        "element_label": "Cover",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "occurrence",
+                        "element_label": "Occurrence",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": true,
+                            "order": 3,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "type",
+                        "element_label": "Pattern Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 4,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "pattern_id": 11,
+                "pattern_name": "stratum",
+                "pattern_label": "Stratum",
+                "pattern_description": "Legend class horizontal pattern stratum",
+                "pattern_icon": "text-xs p-1 m-1 pi pi-fw pi-minus",
+                "pattern_reference": "LC_Stratum",
+                "elements": [
+                    {
+                        "element_name": "name",
+                        "element_label": "Name",
+                        "element_type": "ReadOnly",
+                        "element_rules": {
+                            "required": true,
+                            "order": 0,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "description",
+                        "element_label": "Description",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "presenceType",
+                        "element_label": "Presence Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": true,
+                            "order": 3,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['PresenceTypes']"
+                        }
+                    },
+                    {
+                        "element_name": "portioning",
+                        "element_label": "Portioning",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 2,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": ""
+                        }
+                    },
+                    {
+                        "element_name": "onTop",
+                        "element_label": "On Top",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 4,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "returnStrata(elementID)"
+                        }
+                    },
+                    {
+                        "element_name": "onTopType",
+                        "element_label": "On Top Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 5,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['OnTopTypes']"
+                        }
+                    }
+                ]
+            }
+        ]
+}

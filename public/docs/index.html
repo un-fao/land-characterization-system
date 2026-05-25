@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LChS Documentation - Overview</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/toc.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <img src="assets/images/fao_logo.svg" alt="FAO Logo">
+        <h1>Land CHaracterization System Documentation</h1>
+      </div>
+      <div class="search-wrap">
+        <input id="search-box" type="search" placeholder="Search documentation…" aria-label="Search documentation">
+        <div id="search-results" role="listbox" aria-label="Search results"></div>
+      </div>
+    </header>
+    <nav class="sidebar">
+      <ul>
+        <li><a href="index.html">Introduction</a></li>
+        <li><a href="sections/user-interface.html">User Interface</a></li>
+        <li><a href="sections/workflows.html">Workflows</a></li>
+        <li><a href="sections/examples.html">Examples</a></li>
+        <li><a href="sections/glossary.html">Glossary</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2>Land CHaracterization System Overview</h2>
+      <p>Since 1996, <a href="https://fao.org" target="_blank">Food and Agriculture Organization of the United Nations (FAO)</a> has been developing international guidance and standards for land cover and land use monitoring. Building on the foundation of Land Cover Classification System (LCCS) and the <a href="https://openknowledge.fao.org/handle/20.500.14283/cd6247en" target="_blank">Land Cover MetaLanguage (LCML) – ISO 19144-2</a>, FAO developed Land CHaracterization System (LChS) software. LChS is a standalone, open-source and web-based application that provides a user-friendly graphical interface characterizing and representing land cover and land use through a modelling approach. It represents land cover and land use considering the structure and relationships of the classes, patterns, elements, properties and characteristics. It has been developed to aim at characterizing land cover and land use, meaning that its future development will also consider the standards <a href="https://openknowledge.fao.org/handle/20.500.14283/cd6231en" target="_blank">ISO 19144-3</a> on land use and 19144-4 on registration and implementation (under development).</p>
+      <p>The LCHS is also accompanied by two sematic interoperability assessment tools: </p>
+      <ul>
+        <li><strong>Similarity Assessment</strong> – compares legends across domains.</li>
+        <li><strong>Legend Connector</strong> – enables assignment between classification systems.</li>
+      </ul>
+    </main>
+    <footer id="footer">
+      <script>
+      fetch("sections/footer.txt")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("footer").innerHTML = html;
+        });
+      </script>
+    </footer>
+  </body>
+</html>

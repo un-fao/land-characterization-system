@@ -1,0 +1,209 @@
+    {
+        "LC_Block-LC_Block": [
+            {
+                "parent_id": null,
+                "block_id": 1001,
+                "description": "Elements Vegetation"
+            },
+            {
+                "parent_id": null,
+                "block_id": 1002,
+                "description": "Elements Abiotic Surfaces"
+            },
+            {
+                "parent_id": 1001,
+                "block_id": 1003,
+                "description": "Vegetation Growth Forms"
+            },
+            {
+                "parent_id": 1003,
+                "block_id": 1004,
+                "description": "Growth Forms Woody Growth Forms"
+            },
+            {
+                "parent_id": 1003,
+                "block_id": 1007,
+                "description": "Growth Forms Herbaceous Growth Forms"
+            },
+            {
+                "parent_id": 1003,
+                "block_id": 1010,
+                "description": "Growth Forms Lichen & Mosses"
+            },
+            {
+                "parent_id": 1003,
+                "block_id": 1013,
+                "description": "Growth Forms Algae"
+            },
+            {
+                "parent_id": 1004,
+                "block_id": 1005,
+                "description": "Woody Growth Forms Trees"
+            },
+            {
+                "parent_id": 1004,
+                "block_id": 1006,
+                "description": "Woody Growth Forms Shrubs"
+            },
+            {
+                "parent_id": 1007,
+                "block_id": 1008,
+                "description": "Herbaceous Growth Forms Forbs"
+            },
+            {
+                "parent_id": 1007,
+                "block_id": 1009,
+                "description": "Herbaceous Growth Forms Graminoids"
+            },
+            {
+                "parent_id": 1010,
+                "block_id": 1011,
+                "description": "Lichen & Mosses Lichen"
+            },
+            {
+                "parent_id": 1010,
+                "block_id": 1012,
+                "description": "Lichen & Mosses Mosses"
+            },
+            {
+                "parent_id": 1002,
+                "block_id": 1014,
+                "description": "Abiotic Surfaces Artificial Surfaces"
+            },
+            {
+                "parent_id": 1014,
+                "block_id": 1015,
+                "description": "Artificial Surfaces Non-Built-Up Surface"
+            },
+            {
+                "parent_id": 1015,
+                "block_id": 1016,
+                "description": "Non-Built-Up Surface Dump Site"
+            },
+            {
+                "parent_id": 1015,
+                "block_id": 1017,
+                "description": "Non-Built-Up Surface Extraction"
+            },
+            {
+                "parent_id": 1014,
+                "block_id": 1018,
+                "description": "Artificial Surfaces Built-Up Surface"
+            },
+            {
+                "parent_id": 1018,
+                "block_id": 1019,
+                "description": "Built-Up Surface Non-Linear Surface"
+            },
+            {
+                "parent_id": 1019,
+                "block_id": 1020,
+                "description": "Non-Linear Surface Building"
+            },
+            {
+                "parent_id": 1019,
+                "block_id": 1021,
+                "description": "Non-Linear Surface Other Construction"
+            },
+            {
+                "parent_id": 1019,
+                "block_id": 1022,
+                "description": "Non-Linear Surface Other Artificial Surface"
+            },
+            {
+                "parent_id": 1018,
+                "block_id": 1023,
+                "description": "Built-Up Surface Linear Surface"
+            },
+            {
+                "parent_id": 1002,
+                "block_id": 1024,
+                "description": "Abiotic Surfaces Natural Surfaces"
+            },
+            {
+                "parent_id": 1024,
+                "block_id": 1025,
+                "description": "Natural Surfaces Rocks Surface"
+            },
+            {
+                "parent_id": 1025,
+                "block_id": 1026,
+                "description": "Rocks Surface Bare Rock"
+            },
+            {
+                "parent_id": 1025,
+                "block_id": 1027,
+                "description": "Rocks Surface Hardpan"
+            },
+            {
+                "parent_id": 1024,
+                "block_id": 1028,
+                "description": "Natural Surfaces Soils & Sand Deposits Surface"
+            },
+            {
+                "parent_id": 1028,
+                "block_id": 1029,
+                "description": "Soils & Sand Deposits Surface Bare Soil"
+            },
+            {
+                "parent_id": 1028,
+                "block_id": 1030,
+                "description": "Soils & Sand Deposits Surface Coarse Mineral Fragments"
+            },
+            {
+                "parent_id": 1028,
+                "block_id": 1033,
+                "description": "Soils & Sand Deposits Surface Deposits"
+            },
+            {
+                "parent_id": 1028,
+                "block_id": 1031,
+                "description": "Soils & Sand Deposits Surface Loose & Shifting Sand"
+            },
+            {
+                "parent_id": 1033,
+                "block_id": 1034,
+                "description": "Deposits Inorganic Deposits"
+            },
+            {
+                "parent_id": 1033,
+                "block_id": 1035,
+                "description": "Deposits Organic Deposits"
+            },
+            {
+                "parent_id": 1031,
+                "block_id": 1032,
+                "description": "Loose & Shifting Sand Dune"
+            },
+            {
+                "parent_id": 1002,
+                "block_id": 1036,
+                "description": "Abiotic Surfaces Water Body & Associated Surfaces"
+            },
+            {
+                "parent_id": 1036,
+                "block_id": 1037,
+                "description": "Water Body & Associated Surfaces Water Body"
+            },
+            {
+                "parent_id": 1036,
+                "block_id": 1038,
+                "description": "Water Body & Associated Surfaces Snow"
+            },
+            {
+                "parent_id": 1036,
+                "block_id": 1039,
+                "description": "Water Body & Associated Surfaces Ice"
+            },
+            {
+                "parent_id": 1039,
+                "block_id": 1040,
+                "description": "Ice Terrestrial Ice"
+            },
+            {
+                "parent_id": 1039,
+                "block_id": 1041,
+                "description": "Ice Floating Ice"
+            }
+        ]
+    }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LChS Documentation - Glossary</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/script.js" defer></script>
+    <script src="../assets/js/toc.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <img src="../assets/images/fao_logo.svg" alt="FAO Logo">
+        <h1>Land CHaracterization System Documentation</h1>
+      </div>
+      <div class="search-wrap">
+        <input id="search-box" type="search" placeholder="Search documentation…" aria-label="Search documentation">
+        <div id="search-results" role="listbox" aria-label="Search results"></div>
+      </div>
+    </header>
+    <nav class="sidebar" id="sidebar">
+      <script>
+      fetch("sidebar.txt")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("sidebar").innerHTML = html;
+        });
+      </script>
+    </nav>
+    <main>
+      <h2>Glossary</h2>
+      <p>Key terms and definitions for LCHS will be added here.</p>
+    </main>
+    <footer id="footer">
+      <script>
+      fetch("footer.txt")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("footer").innerHTML = html;
+        });
+      </script>
+    </footer>
+  </body>
+</html>

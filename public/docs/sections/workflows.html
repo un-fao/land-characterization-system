@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LChS Documentation - Workflows</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/script.js" defer></script>
+    <script src="../assets/js/toc.js" defer></script>
+    </head>
+  <body>
+    <header id="header">
+      <div class="brand">
+        <img src="../assets/images/fao_logo.svg" alt="FAO Logo">
+        <h1>Land CHaracterization System Documentation</h1>
+      </div>
+      <div class="search-wrap">
+        <input id="search-box" type="search" placeholder="Search documentation…" aria-label="Search documentation">
+        <div id="search-results" role="listbox" aria-label="Search results"></div>
+      </div>
+    </header>
+    <nav class="sidebar" id="sidebar">
+      <script>
+      fetch("sidebar.txt")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("sidebar").innerHTML = html;
+        });
+      </script>
+    </nav>
+    <main>
+      <h2>Land Cover Legend Creation Workflows</h2>
+
+      <h3>I. New Legend</h3>
+      <div style="display: flex; flex-direction: row; align-items: start;">
+        <div style="width: 30%; max-height: 80vh; overflow: auto; padding: 2px;">
+          <ol>
+            <li>From the menu toolbar select 'File' then 'New' [Select 'New' from the shortcut toolbar].</li>
+            <li>Select 'Yes' to confirm legend clearing.</li>
+            <li>Select 'No' not to restore auto-save.</li>
+            <li>In the legend pane, select 'Legend' and enter the legend's name, description and author in the properties panel.</li>
+            <li>Select 'Save Properties' to save the legend's properties.</li>
+            <li>In the legend pane, select 'Class 1' and enter the class' name, description, code and colour in the properties panel.</li>
+            <li>Select 'Save Properties' to save the class' properties.</li>
+            <li>In the properties panel, select 'Add Horizontal Pattern' to add a horizontal pattern to the class.</li>
+            <li>In the legend pane, select 'Horizontal Pattern 1' and enter the horizontal pattern's description, cover, occurrence and pattern type in the properties panel.</li>
+            <li>Select 'Save Properties' to save the horizontal pattern's properties.</li>
+            <li>In the properties panel, select 'Add Stratum' to add a stratum to the horizontal pattern.</li>
+            <li>In the legend pane, select 'Stratum 1' and enter the stratum's description, presence type, portioning, and On Top details in the properties panel.</li>
+            <li>While the stratum is highlighted in the legend pane, double click on all the elements in the element panel that are relevant to the stratum to add them.</li>
+            <li>In the legend pane, select an element and enter its properties in the properties panel.</li>
+            <li>Select 'Save Properties' to save the elements' properties.</li>
+            <li>While the element is highlighted in the legend pane, select a characteristic group in the characteristics panel.</li>
+            <li>Enter the element's characteristics in the characteristics sheet that appears above the characteristic groups.</li>
+            <li>Select 'Save Characteristics' to save the elements' characteristics.</li>
+            <li>From the shortcut toolbar select 'Validate' to check for any errors in the legend</li>
+            <li>From the menu toolbar select 'File' then 'Export' to export the legend [Select 'Export' from the shortcut toolbar] / [Select 'Export diagram' from the legend pane]</li>
+          </ol>
+        </div>
+        <div style="width: 70%;">
+          <figure class="placeholder">
+            <video width="80%" loop controls preload="metadata">
+              <source src="../assets/videos/LC_Mangroves.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <div>Video: Creating a new legend</div>
+          </figure>
+        </div>
+      </div>
+
+      <h3>II. Import Legend</h3>
+      <div style="display: flex; flex-direction: row; align-items: start;">
+        <div style="width: 30%; max-height: 80vh; overflow: auto; padding: 2px;">
+          <ol>
+            <li>Importing a legend file.<br />
+              <ol type="a">
+                <li>From the menu toolbar select 'File' then 'Import' [Select 'Import' from the shortcut toolbar].</li>
+                <li>In the new 'Import Characterization Legend' window under 'Select Legend Source', select 'Legend File'.</li>
+                <li>Click on the blue 'Select Legend' button and navigate and select the legend file to import [Drag and drop the legend file you wish to import into the 'Drag and Drop Legend File Here' area].
+                  <br /><u>Note:</u> LChS can process .LChS, .lccs and .csv files.  See the requirements in the 'File Types' panel.
+                </li>
+                <li>Click on the green 'Load Legend' button to import the legend.</li>
+              </ol>
+            </li>
+            <br />
+            <li>Importing from the Land Cover Registry.<br />
+              <ol type="a">
+                <li>From the menu toolbar select 'File' then 'Import' [Select 'Import' from the shortcut toolbar].</li>
+                <li>In the new 'Import Characterization Legend' window under 'Select Legend Source', select 'Land Cover Registry (LCLR)'.</li>
+                <li>Wait for the registry to load and scroll through the list and select the legend you wish to import [Use the sort and filter buttons to rearrange the list as required].</li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+        <div style="width: 70%;">
+          <figure class="placeholder">
+            <video width="80%" loop controls preload="metadata">
+              <source src="../assets/videos/LC_Import.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <div>Video: Importing a legend</div>
+          </figure>
+        </div>
+      </div>
+
+      <h3>III. Export Legend</h3>
+      <div style="display: flex; flex-direction: row; align-items: start;">
+        <div style="width: 30%; max-height: 80vh; overflow: auto; padding: 2px;">
+          <ol>
+            <li>Validate the legend.<br />
+              <ol type="a">
+                <li>From the shortcut toolbar select 'Validate'.</li>
+                <li>Review the messages in the notifications panel and address any issues with the legend to allow exporting.</li>
+              </ol>
+            </li>
+            <br />
+            <li>Exporting the legend.<br />
+              <ol type="a">
+                <li>From the menu toolbar select 'File' then 'Export' [Select 'Export' from the shortcut toolbar].
+                  <br /><span style="font-size: small;"><i>(If 'Export' is greyed out, validate the legend and address any errors.</i>)</span>
+                </li>
+                <li>In the new 'Export Legend' panel select the export you require:
+                  <br /><u>Complete:</u> Full export of the legend including LChS file, LCML XSD, legend diagram, class diagrams and CSV file in compressed ZIP file.
+                  <br /><u>LChS:</u> Export of the legend as a LChS file.
+                  <br /><u>CSV:</u> Export of the legend as a CSV file.
+              </ol>
+            </li>
+            <br />
+            <li>Exporting the legend diagram.<br />
+              <ol type="a">
+                <li>From the legend pane click 'Export diagram'.
+                  <br /><span style="font-size: small;"><i>(If 'Export diagram' is inactive, validate the legend and address any errors.</i>)</span>
+                </li>
+                <li>Select the image format required: PNG, JPG or SVG.</li>
+              </ol>
+            </li>
+            <br />
+            <li>Exporting a class diagram.<br />
+              <ol type="a">
+                <li>From the legend pane select the class' name tab to select the class you intend to export.</li>
+                <li>From the legend pane click 'Export diagram'.
+                  <br /><span style="font-size: small;"><i>(If 'Export diagram' is inactive, validate the legend and address any errors.</i>)</span>
+                </li>
+                <li>Select the image format required: PNG, JPG or SVG.</li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+        <div style="width: 70%;">
+          <figure class="placeholder">
+            <video width="80%" loop controls preload="metadata">
+              <source src="../assets/videos/LC_Export.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <div>Video: Exporting a legend</div>
+          </figure>
+        </div>
+      </div>
+
+      <h2>&nbsp;</h2><h2>Land Cover Semantic Interoperability Workflows</h2>
+
+      <h3>I. Similarity Assessments</h3>
+      <div style="display: flex; flex-direction: row; align-items: start;">
+        <div style="width: 30%; max-height: 80vh; overflow: auto; padding: 2px;">
+          <ol>
+            <li>From the menu toolbar select 'Resources' then 'Semantic Interoperability' then 'Similarity Assessment'.</li>
+            <li>In the new 'Similarity Assessment' window under 'Compare legends for similarity by:', select 'Correspondence & Extensiveness' or 'Element Count' according to the comparison method preferred.</li>
+            <li>Click on the blue 'Select Legends' button and navigate and select:
+              <br /> - A reference legend file, against which other legends will be compared.  (Ensure the reference legend file name includes the word 'Reference' for the system to identify it)
+              <br /> - Legend files to be compared again the legend. (Hold Ctrl to select multiple files) 
+              <br />[Drag and drop the reference legend and other legend files you wish to compare into the 'Drag and Drop Legend Files Here' area].
+              <br /><u>Note:</u> LChS can process .LChS, .lccs and .csv files.  See the requirements in the 'File Types' panel.
+            </li>
+            <li>Click on the green 'Process Legends' button to perform the similarity assessment.</li>
+            <li>Click on the similarity value to see the calculation of the similarity.</li>
+            <li>Click on 'Export (CSV)' to export the similarity results.</li>
+          </ol>
+        </div>
+        <div style="width: 70%;">
+          <figure class="placeholder">
+            <video width="80%" loop controls preload="metadata">
+              <source src="../assets/videos/LC_Similarity_Assessment.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <div>Video: Similarity Assessment</div>
+          </figure>
+        </div>
+      </div>
+
+      <h3>II. Legend Reassignment</h3>
+      <div style="display: flex; flex-direction: row; align-items: start;">
+        <div style="width: 30%; max-height: 80vh; overflow: auto; padding: 2px;">
+          <ol>
+            <li>From the menu toolbar select 'Resources' then 'Semantic Interoperability' then 'Legend Connector'.</li>
+            <li>In the new 'Select Reference Legend' choose a reference classification system to map your appointed legend against.</li>
+            <li>Click 'Next'</li>
+            <li>In 'Load Appointed' either
+              <br /> - Select 'Upload File' to upload your appointed legend file to be mapped against the reference classification.  Click 'Select Legend File' to select the appointed legend file [Drag and drop the appointed legend into the 'Drag and drop legend file here' area].</li>
+              <br /> - Select 'Land Cover Registry (LCLR)' to select an appointed legend from the FAO Land Cover Registry to be mapped against the reference classification.  Click on the 'Legend Name' or 'Actions' to select the appointed legend to import.</li>
+            <li>Scroll down and click 'Next'. 
+              <br /><span style="font-size: small;"><i>(Advanced users can adjust processing options in the window.)</i></span>
+            </li>
+            <li>Scroll to the bottom of the window and click 'Start Processing'.</li>
+            <li>Click 'View Results'.</li>
+            <li>Click 'Export CSV', 'Export Excel' or 'Export JSON' to download the class reassignments that you can use in your GIS.</li>            
+            <li>To make adjustments or manually reassign classes:
+              <ol type="a">
+                <li>In the 'Matching Results' pane, select 'Log' to view the details of the class assignments</li>
+                <li>From the 'Matching Details & Class Reassignment' pane click on the '+'.</li>                
+                <li>Scroll to the class you wish to reassign:
+                  <ul>
+                    <li>Select 'Alternatives' to directly assign already computed alternatives.</li>
+                    <li>Select 'Reassign Class' pencil to select from all classes.</li>
+                  </ul>
+                </li>
+                <li>Click 'Export CSV', 'Export Excel' or 'Export JSON' to download the class reassignments that you can use in your GIS.</li>
+              </ol>
+            </li>            
+          </ol>
+        </div>
+        <div style="width: 70%;">
+          <figure class="placeholder">
+            <video width="80%" loop controls preload="metadata">
+              <source src="../assets/videos/LC_Legend_Connector.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <div>Video: Legend Reassignment</div>
+          </figure>
+        </div>
+      </div>
+
+    </main>
+    <footer id="footer">
+      <script>
+      fetch("footer.txt")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("footer").innerHTML = html;
+        });
+      </script>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,986 @@
+{
+        "LC_Characteristics": [
+            {
+                "characteristic_id": 100001,
+                "characteristic_name": "waterSalinity",
+                "characteristic_label": "Water Salinity",
+                "characteristic_description": "Water Salinity Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-water",
+                "characteristic_reference": "LC_WaterSalinityCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "waterSalinity",
+                        "element_label": "Water Salinity",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['WaterSalinityTypes']",
+                            "options_name": "water_salinity_types"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100002,
+                "characteristic_name": "waterChemistry",
+                "characteristic_label": "Water Chemistry",
+                "characteristic_description": "Water Chemistry Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-flask-vial",
+                "characteristic_reference": "LC_WaterChemistryCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "nutrientLevel",
+                        "element_label": "Nutrient Level",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['NutrientLevels']",
+                            "options_name": "nutrient_levels"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100003,
+                "characteristic_name": "element_artificiality",
+                "characteristic_label": "Artificiality",
+                "characteristic_description": "Element Artificiality Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-mountain-city",
+                "characteristic_reference": "LC_ArtificialityCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "artificiality",
+                        "element_label": "Artificiality",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['Artificiality']",
+                            "options_name": "artificiality_types"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100004,
+                "characteristic_name": "aquaculture",
+                "characteristic_label": "Aquaculture",
+                "characteristic_description": "Aquaculture Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-otter",
+                "characteristic_reference": "LC_AquacultureCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "aquacultureType",
+                        "element_label": "Aquaculture Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100005,
+                "characteristic_name": "snowCategory",
+                "characteristic_label": "Snow Category",
+                "characteristic_description": "Snow Category Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-snowflake",
+                "characteristic_reference": "LC_SnowCategoryCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "category",
+                        "element_label": "Category",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100006,
+                "characteristic_name": "iceCategory",
+                "characteristic_label": "Ice Category",
+                "characteristic_description": "Ice Category Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-icicles",
+                "characteristic_reference": " LC_IceCategoryCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "category",
+                        "element_label": "Category",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100007,
+                "characteristic_name": "constructionStatusCharacteristic",
+                "characteristic_label": "Construction Status",
+                "characteristic_description": "Construction Status Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-mountain-city",
+                "characteristic_reference": "LC_ConstructionStatusCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "age",
+                        "element_label": "Age",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 1000,
+                            "unit": "Year",
+                            "symbol": "Year",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "constructionStatusType",
+                        "element_label": "Construction Status Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['ConstructionStatuses']",
+                            "options_name": "construction_statuses"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100008,
+                "characteristic_name": "artificialSurfaceTypes",
+                "characteristic_label": "Artificial Surface Type",
+                "characteristic_description": "Artificial Surface Types",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-mountain-city",
+                "characteristic_reference": "LC_ArtificialSurfaceTypes",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "artificialSurfaceType",
+                        "element_label": "Artificial Surface Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100009,
+                "characteristic_name": "artificialSurfaceDamageCharacteristic",
+                "characteristic_label": "Artificial Surface Damage",
+                "characteristic_description": "Artificial Surface Damage Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-mountain-city",
+                "characteristic_reference": "LC_ArtificialSurfaceDamageCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "artificialSurfaceDamageType",
+                        "element_label": "Artificial Surface Damage Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "artificialSurfaceDamagePercentage",
+                        "element_label": "Artificial Surface Damage Percentage",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100023,
+                "characteristic_name": "constructionUseCharacteristic",
+                "characteristic_label": "Construction Use",
+                "characteristic_description": "Construction Use Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-city",
+                "characteristic_reference": "LC_ConstructionUse",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "constructionUse",
+                        "element_label": "Construction Use",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['ConstructionUses']",
+                            "options_name": "construction_uses"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100010,
+                "characteristic_name": "floristicAspectsCharacteristic",
+                "characteristic_label": "Floristic Aspects",
+                "characteristic_description": "Floristic Aspects Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_FloristicAspectsCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "speciesName",
+                        "element_label": "Species Name",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "singlePlantSpeciesType",
+                        "element_label": "Single Plant Species Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['SinglePlantSpeciesTypes']",
+                            "options_name": "singlePlantSpeciesTypes"
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "groupOfPlantSpeciesType",
+                        "element_label": "Group Of Plant Species Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['GroupOfPlantSpeciesTypes']",
+                            "options_name": "groupOfPlantSpeciesTypes"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100011,
+                "characteristic_name": "allometricMeasurementsCharacteristic",
+                "characteristic_label": "Allometric Measurements",
+                "characteristic_description": "Allometric Measurements Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_AllometricMeasurementsCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "crownDiameter",
+                        "element_label": "Crown Diameter",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 1000,
+                            "unit": "Metre",
+                            "symbol": "m",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "trunkDiameter",
+                        "element_label": "Trunk Diameter",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 1000,
+                            "unit": "Metre",
+                            "symbol": "m",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100012,
+                "characteristic_name": "growthFormAgeCharacteristic",
+                "characteristic_label": "Growth Form Age",
+                "characteristic_description": "Growth Form Age Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_GrowthFormAgeCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "age",
+                        "element_label": "Age",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 1000,
+                            "unit": "Year",
+                            "symbol": "Year",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "unevenAge",
+                        "element_label": "Uneven Age",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100013,
+                "characteristic_name": "burntStatusCharacteristic",
+                "characteristic_label": "Burnt Status",
+                "characteristic_description": "Burnt Status Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_BurntStatusCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "burntStatus",
+                        "element_label": "Burnt Status",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100014,
+                "characteristic_name": "deadStatusCharacteristic",
+                "characteristic_label": "Dead Status",
+                "characteristic_description": "Dead Status Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_DeadStatusCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "deadStatus",
+                        "element_label": "Dead Status",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100015,
+                "characteristic_name": "vegetationDamageCharacteristic",
+                "characteristic_label": "Vegetation Damage",
+                "characteristic_description": "Vegetation Damage Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_VegetationDamageCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "damageType",
+                        "element_label": "Damage Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "damage",
+                        "element_label": "Damage Percentage",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100016,
+                "characteristic_name": "waterStressCharacteristic",
+                "characteristic_label": "Water Stress",
+                "characteristic_description": "Water Stress Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_WaterStressCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "waterStress",
+                        "element_label": "Water Stress",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100017,
+                "characteristic_name": "growthFormIllnessCharacteristic",
+                "characteristic_label": "Growth Form Illness",
+                "characteristic_description": "Growth Form Illness Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_GrowthFormIllnessCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "growthFormIllnessType",
+                        "element_label": "Growth Form Illness Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "growthFormIllness",
+                        "element_label": "Growth Form Illness Percentage",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100018,
+                "characteristic_name": "grazedCharacteristic",
+                "characteristic_label": "Grazed",
+                "characteristic_description": "Grazed Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_GrazedCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "intensity",
+                        "element_label": "Intensity",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "animalType",
+                        "element_label": "Animal Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100019,
+                "characteristic_name": "mowedCharacteristic",
+                "characteristic_label": "Mowed",
+                "characteristic_description": "Mowed Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_MowedCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "mowed",
+                        "element_label": "Mowed",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['Boolean']",
+                            "options_name": "Boolean"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100020,
+                "characteristic_name": "vegetationArtificialityCharacteristic",
+                "characteristic_label": "Vegetation Artificiality",
+                "characteristic_description": "Vegetation Artificiality Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_VegetationArtificialityCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "vegetationArtificiality",
+                        "element_label": "Vegetation Artificiality",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['VegetationArtificialityTypes']",
+                            "options_name": "vegetationArtificialityTypes"
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100021,
+                "characteristic_name": "cultivatedAndManagedVegetationCharacteristics",
+                "characteristic_label": "Cultivated & Managed Vegetation",
+                "characteristic_description": "Cultivated & Managed Vegetation Characteristics",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-leaf",
+                "characteristic_reference": "LC_CultivatedAndManagedVegetationCharacteristics",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "ploughType",
+                        "element_label": "Plough Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['PloughTypes']",
+                            "options_name": "ploughTypes"
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "frequencyMonth",
+                        "element_label": "Frequency (Month)",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 1,
+                            "max": 12,
+                            "unit": "Month",
+                            "symbol": "Month",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "mechanicalErosionControl",
+                        "element_label": "Mechanical Erosion Control",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['MechanicalErosionControls']",
+                            "options_name": "ploughTypes"
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "fieldSize",
+                        "element_label": "Field Size",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 999,
+                            "unit": "Hectares",
+                            "symbol": "ha",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "irrigationType",
+                        "element_label": "Irrigation Type",
+                        "element_type": "Dropdown",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "OptionsBus['IrrigationTypes']",
+                            "options_name": "irrigationTypes"
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "irrigationPercentage",
+                        "element_label": "Irrigation Percentage",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "rainfedPercentage",
+                        "element_label": "Rainfed Percentage",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "postfloodingPercentage",
+                        "element_label": "Postflooding Percentage",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "seedingTime",
+                        "element_label": "Seeding Time",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 1,
+                            "max": 12,
+                            "unit": "Month",
+                            "symbol": "Month",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "growingLength",
+                        "element_label": "Growing Length",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 1,
+                            "max": 99,
+                            "unit": "Month",
+                            "symbol": "Month",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "overlapGrowing",
+                        "element_label": "Overlap Growing",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "overlapGrowingPeriodPercentage",
+                        "element_label": "Overlap Growing Period",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 100,
+                            "unit": "Percentage",
+                            "symbol": "%",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "treePlantation",
+                        "element_label": "Tree Plantation",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "orchardAndOtherPlantation",
+                        "element_label": "Orchard & Other Plantation",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "yield",
+                        "element_label": "Crop Yield",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 999,
+                            "unit": "Metric Tonnes/Hectare",
+                            "symbol": "t/ha",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            },
+            {
+                "characteristic_id": 100022,
+                "characteristic_name": "permafrost",
+                "characteristic_label": "Permafrost",
+                "characteristic_description": "Permafrost Characteristic",
+                "characteristic_icon": "text-xs p-0 m-1 fa-solid fa-igloo",
+                "characteristic_reference": "LC_PermafrostCharacteristic",
+                "elements": [
+                    {
+                        "display_default": "",
+                        "element_name": "depth",
+                        "element_label": "Depth",
+                        "element_type": "Range",
+                        "element_rules": {
+                            "required": false,
+                            "order": 4,
+                            "min": -100,
+                            "max": 0,
+                            "unit": "Metre",
+                            "symbol": "m",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    },
+                    {
+                        "display_default": "",
+                        "element_name": "permafrostType",
+                        "element_label": "Permafrost Type",
+                        "element_type": "Text",
+                        "element_rules": {
+                            "required": false,
+                            "order": 1,
+                            "min": 0,
+                            "max": 0,
+                            "unit": "",
+                            "symbol": "",
+                            "list": "",
+                            "options_name": ""
+                        }
+                    }
+                ]
+            }
+        ]
+    }

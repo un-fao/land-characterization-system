@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LChS Documentation - User Interface</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/script.js" defer></script>
+    <script src="../assets/js/toc.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <img src="../assets/images/fao_logo.svg" alt="FAO Logo">
+        <h1>Land CHaracterization System Documentation</h1>
+      </div>
+      <div class="search-wrap">
+        <input id="search-box" type="search" placeholder="Search documentation…" aria-label="Search documentation">
+        <div id="search-results" role="listbox" aria-label="Search results"></div>
+      </div>
+    </header>
+    <nav class="sidebar" id="sidebar">
+        <script>
+        fetch("sidebar.txt")
+          .then(res => res.text())
+          .then(html => {
+            document.getElementById("sidebar").innerHTML = html;
+          });
+        </script>
+      </nav>
+    <main>
+      <h2>User Interface</h2>
+      <figure class="placeholder">
+        <img src="../assets/images/user_interface.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS User Interface"/>
+        <div>Figure: User Interface</div>
+      </figure>
+      <h3>Main Toolbar</h3>
+      <p>The main toolbar contains three dropdown menus.
+        <figure class="placeholder">
+          <img src="../assets/images/main_toolbar.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Main Toolbar"/>
+          <div>Figure: Main Toolbar</div>
+        </figure>
+      </p>
+
+      <p>The menu includes:
+        <ol>
+          <li>‘File’: Using this menu a user can create new, import, export and delete a legend. As well as manage  saved work and user defined characteristics.
+            <figure class="placeholder">
+              <img src="../assets/images/file_menu.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS File Menu"/>
+              <div>Figure: File Menu</div>
+            </figure>
+          </li>
+
+          <li>‘Wizards’: This option enables users to build the legend through a guided and user-friendly interface as well as managing any user-defined characteristics.
+            <figure class="placeholder">
+              <img src="../assets/images/wizards_menu.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Wizards Menu"/>
+              <div>Figure: Wizards Menu</div>
+            </figure>
+          </li>
+
+          <li>‘Resources’: This menu provides all the relevant resources related to LChS software as well as other tools and documentation. 
+            <figure class="placeholder">
+              <img src="../assets/images/resources_menu.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Resources Menu"/>
+              <div>Figure: Resources Menu</div>
+            </figure>
+          </li>
+        </ol>
+      </p>
+
+      <h3>Shortcut Toolbar</h3>
+      <p>The shortcut toolbar contains shortcuts to the new (create new legend), import (imports legend), export (exports legend), save (save work progress), validate (validates the created legend), legend wizard (create legends in guided way), uses definitions (manage saved work and defined characteristics), docs (access to online documentation), and guided tour (guide to explain each panel in the software) options.
+        <figure class="placeholder">
+          <img src="../assets/images/shortcut_toolbar.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Shortcut Toolbar"/>
+          <div>Figure: Shortcut Toolbar. Quick actions - new, import, export, save, validate, user definitions, legend wizard, docs &amp; guided tour</div>
+        </figure>
+      </p>
+
+      <h3>Elements Panel</h3>
+      <p>The elements panel contains a set of independent elements whose combination, according to the LCML rules, will form a land cover class. The elements composing the class are related to the physiognomic and/or structural characterization of the land cover object. Two main elements are present: 1. vegetation (biotic) elements and 2. non-vegetated (abiotic) elements. A user can easily add them into the land cover class by double-clicking, as well as a user can search by typing the name of the element using search bar.
+        <figure class="placeholder">
+          <img src="../assets/images/elements_panel.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Elements Panel"/>
+          <div>Figure: Elements Panel</div>
+        </figure>
+      </p>
+
+      <figure class="placeholder">
+        <div style="width: 80%; display: flex; flex-direction: row; align-items: center;">
+          <div style="width: 70%; align-items: center;">
+            <ul class="tree">
+              <li><span style="background-color: greenyellow;">Vegetation (biotic)</span>
+                <ul>
+                  <li>Woody
+                    <ul><li>Trees</li><li>Shrubs</li></ul>
+                  </li>
+                  <li>Herbaceous
+                    <ul><li>Forbs</li><li>Graminoids</li></ul>
+                  </li>
+                  <li>Lichens & Mosses</li>
+                  <li>Algae</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div style="width: 30%; align-items: center;">
+            <ul class="tree">
+              <li><span style="background-color: pink;">Non-vegetated (abiotic)</span>
+                <ul>
+                  <li>Abiotic surfaces
+                    <ul><li>Artificial</li><li>Built-up</li><li>Linear surface</li></ul>
+                  </li>
+                  <li>Natural surfaces</li>
+                  <li>Soils & sand deposits</li>
+                  <li>Water bodies & associated surfaces</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </figure>
+
+      <h3>Legend Panel</h3>
+      <p>The legend panel lists all the land cover classes in the legend being worked on. A user can also search the land cover class by using search tab in the legend panel.
+        <figure class="placeholder">
+          <img src="../assets/images/legend_panel.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Legend Panel"/>
+          <div>Figure: Legend Panel</div>
+        </figure>
+      </p>
+
+      <h3>Legend editing and graphic overview pane</h3>
+      <p>The legend editing and graphic overview panel allows users to view and modify legends by simply clicking on the corresponding boxes. Below Figure shows an example of a legend, graphical overview of the legend and its classes and user can export the UML diagram as an image in PNG format by clicking on the export diagram button. 
+        <figure class="placeholder">
+          <img src="../assets/images/legend_pane.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Legend editing and graphic overview pane"/>
+          <div>Figure: Legend editing and graphic overview pane</div>
+        </figure>
+      </p>
+
+      <h3>Element properties panel</h3>
+      <p>The legend editing and graphic overview panel is linked with the element properties panel, since properties are a further specialization of the elements with regards to their physiognomic or structural aspect. From the element properties panel, the user can determine the properties of the element after it has been added to the legend tree.   
+        <figure class="placeholder">
+          <img src="../assets/images/properties_panel.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Element Properties Panel"/>
+          <div>Figure: Element Properties Panel</div>
+        </figure>
+      </p>
+
+      <h3>Element characteristics panel</h3>
+      <p>The legend editing and graphic overview panel is linked with the element characteristics panel, since characteristics are a further specialization e.g. climate, floristic aspects, water stress etc. From the element characteristics panel, the user can determine characteristics on addition to the legend tree.  The user selects a characteristic group and fills the specific characteristic values in this panel.
+        <figure class="placeholder">
+          <img src="../assets/images/characteristics_panel.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Element Characteristics Panel"/>
+          <div>Figure: Element Characteristics Panel</div>
+        </figure>
+      </p>
+
+      <h3>Notifications panel</h3>
+      <p>The notifications panel lists all the LCHS generated notifications including errors whenever a saving function is undertaken.
+        <figure class="placeholder">
+          <img src="../assets/images/notification_panel.png" style="max-width: 80%; margin: auto; display: block;" alt="LChS Notification Panel"/>
+          <div>Figure: Notification Panel</div>
+        </figure>
+      </p>
+
+    </main>
+    <footer id="footer">
+      <script>
+      fetch("footer.txt")
+        .then(res => res.text())
+        .then(html => {
+          document.getElementById("footer").innerHTML = html;
+        });
+      </script>
+    </footer>
+  </body>
+</html>

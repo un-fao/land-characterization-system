@@ -1,0 +1,1595 @@
+{
+  "metadata": {
+    "id": "FRA",
+    "name": "FRA",
+    "fullName": "FAO Global Forest Resources Assessment",
+    "version": "1.0.0",
+    "author": "Food and Agriculture Organization of the United Nations",
+    "organization": "Food and Agriculture Organization of the United Nations (FAO)",
+    "description": "Global Forest Resources Assessment land classification system distinguishing forest, other wooded land, and other land categories based on tree cover, height, and land use criteria",
+    "url": "https://www.fao.org/forest-resources-assessment/en",
+    "citation": "FAO. 2025. Global Forest Resources Assessment 2025. Rome.",
+    "created": "2025-12-16T13:00:00.000Z",
+    "updated": "2025-12-16T15:20:13.092Z",
+    "tags": [
+      "FAO",
+      "FRA",
+      "Forest",
+      "Global",
+      "Land Classification"
+    ]
+  },
+  "ruleSet": {
+    "metadata": {
+      "id": "FRA",
+      "name": "FRA",
+      "fullName": "FAO Global Forest Resources Assessment",
+      "version": "1.0.0",
+      "author": "Food and Agriculture Organization of the United Nations",
+      "organization": "Food and Agriculture Organization of the United Nations (FAO)",
+      "description": "Global Forest Resources Assessment land classification system distinguishing forest, other wooded land, and other land categories based on tree cover, height, and land use criteria",
+      "url": "https://www.fao.org/forest-resources-assessment/en",
+      "citation": "FAO. 2025. Global Forest Resources Assessment 2025. Rome.",
+      "created": "2025-12-16T13:00:00.000Z",
+      "updated": "2025-12-16T15:20:13.092Z",
+      "tags": [
+        "FAO",
+        "FRA",
+        "Forest",
+        "Global",
+        "Land Classification"
+      ]
+    },
+    "rules": [
+      {
+        "id": 1734356000001,
+        "name": "Forest Classification",
+        "priority": 1,
+        "syntax": "Ms'Trees, cover 10-100%, height 5-80m, natural or semi-natural",
+        "description": "Mandatory standard Trees, cover 10-100%, height 5-80m, natural or semi-natural",
+        "assignment": {
+          "class_id": 1,
+          "class_name": "Forest",
+          "class_map_code": "1",
+          "class_description": ""
+        },
+        "inclusive": {
+          "classes": {
+            "id": 1734356000001,
+            "priority": 1,
+            "name": "Class Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000001,
+            "priority": 1,
+            "name": "Class Characteristics Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000001,
+            "priority": 1,
+            "name": "Horizontal Pattern Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000001,
+            "priority": 1,
+            "name": "Strata Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": [
+            {
+              "id": 1734356000101,
+              "priority": 1,
+              "element": 1005,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1734356000101,
+                    "name": "Trees Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [
+                          {
+                            "object": "cover",
+                            "lower_bound": "10",
+                            "lower_tolerance": 0,
+                            "upper_bound": "100",
+                            "upper_tolerance": 0,
+                            "mode": ">=<="
+                          },
+                          {
+                            "object": "height",
+                            "lower_bound": "5",
+                            "lower_tolerance": 0,
+                            "upper_bound": "80",
+                            "upper_tolerance": 0,
+                            "mode": ">=<="
+                          }
+                        ],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": [
+                  {
+                    "id": 1734356000102,
+                    "name": "Vegetation Artificiality Characteristic Rules",
+                    "priority": 1,
+                    "characteristicID": 100020,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": [
+                          {
+                            "vegetationArtificiality": [
+                              {
+                                "object": "vegetationArtificiality",
+                                "lower_bound": "Natural",
+                                "lower_tolerance": 0,
+                                "upper_bound": "Natural",
+                                "upper_tolerance": 0,
+                                "mode": "Contains"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "exclusive": {
+          "classes": {
+            "id": 1734356000001,
+            "priority": 1,
+            "name": "Class Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000001,
+            "priority": 1,
+            "name": "Class Characteristics Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000001,
+            "priority": 1,
+            "name": "Horizontal Pattern Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000001,
+            "priority": 1,
+            "name": "Strata Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": []
+        },
+        "metadata": {
+          "created": "2025-12-16T13:00:00.000Z",
+          "updated": "2025-12-16T14:59:43.932Z",
+          "author": "System",
+          "notes": "Forest: Land spanning more than 0.5 hectares with trees higher than 5 meters and canopy cover of more than 10 percent, natural or semi-natural"
+        }
+      },
+      {
+        "id": 1734356000002,
+        "name": "Other Wooded Land Classification",
+        "priority": 1,
+        "syntax": "Ms'Trees, cover 5-10%, height 5-80 m, natural or semi-natural",
+        "description": "Mandatory standard Trees, cover 5-10%, height 5-80 m, natural or semi-natural",
+        "assignment": {
+          "class_id": 2,
+          "class_name": "Other Wooded Land",
+          "class_map_code": "2",
+          "class_description": ""
+        },
+        "inclusive": {
+          "classes": {
+            "id": 1734356000002,
+            "priority": 1,
+            "name": "Class Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000002,
+            "priority": 1,
+            "name": "Class Characteristics Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000002,
+            "priority": 1,
+            "name": "Horizontal Pattern Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000002,
+            "priority": 1,
+            "name": "Strata Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": [
+            {
+              "id": 1734356000201,
+              "priority": 1,
+              "element": 1005,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1734356000201,
+                    "name": "Trees Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [
+                          {
+                            "object": "cover",
+                            "lower_bound": "5",
+                            "lower_tolerance": 0,
+                            "upper_bound": "10",
+                            "upper_tolerance": 0,
+                            "mode": ">=<="
+                          },
+                          {
+                            "object": "height",
+                            "lower_bound": "5",
+                            "lower_tolerance": 0,
+                            "upper_bound": "80",
+                            "upper_tolerance": 0,
+                            "mode": ">=<="
+                          }
+                        ],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": [
+                  {
+                    "id": 1734356000202,
+                    "name": "Vegetation Artificiality Characteristic Rules",
+                    "priority": 1,
+                    "characteristicID": 100020,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": [
+                          {
+                            "vegetationArtificiality": [
+                              {
+                                "object": "vegetationArtificiality",
+                                "lower_bound": "Natural",
+                                "lower_tolerance": 0,
+                                "upper_bound": "Natural",
+                                "upper_tolerance": 0,
+                                "mode": "Contains"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "exclusive": {
+          "classes": {
+            "id": 1734356000002,
+            "priority": 1,
+            "name": "Class Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000002,
+            "priority": 1,
+            "name": "Class Characteristics Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000002,
+            "priority": 1,
+            "name": "Horizontal Pattern Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000002,
+            "priority": 1,
+            "name": "Strata Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": []
+        },
+        "metadata": {
+          "created": "2025-12-16T13:00:00.000Z",
+          "updated": "2025-12-16T15:04:48.221Z",
+          "author": "System",
+          "notes": "Other wooded land: Trees with canopy cover of 5-10%, height 5-80m, natural or semi-natural"
+        }
+      },
+      {
+        "id": 1734356000003,
+        "name": "Other Land - Cropland Classification",
+        "priority": 1,
+        "syntax": "Ms'Growth Forms, cultivated and managed",
+        "description": "Mandatory standard Growth Forms, cultivated and managed",
+        "assignment": {
+          "class_id": 4,
+          "class_name": "Other Land - Cropland",
+          "class_map_code": "4",
+          "class_description": ""
+        },
+        "inclusive": {
+          "classes": {
+            "id": 1734356000003,
+            "priority": 1,
+            "name": "Class Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000003,
+            "priority": 1,
+            "name": "Class Characteristics Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000003,
+            "priority": 1,
+            "name": "Horizontal Pattern Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000003,
+            "priority": 1,
+            "name": "Strata Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": [
+            {
+              "id": 1765897425674,
+              "priority": 1,
+              "element": 1003,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1765897425674,
+                    "name": "Growth Forms Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": [
+                  {
+                    "id": 1765897434323,
+                    "name": "Vegetation Artificiality Characteristic Rules",
+                    "priority": 1,
+                    "characteristicID": 100020,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": [
+                          {
+                            "vegetationArtificiality": [
+                              {
+                                "object": "vegetationArtificiality",
+                                "lower_bound": "Cultivated",
+                                "lower_tolerance": 0,
+                                "upper_bound": "Cultivated",
+                                "upper_tolerance": 0,
+                                "mode": "Contains"
+                              },
+                              {
+                                "object": "vegetationArtificiality",
+                                "lower_bound": "Manage",
+                                "lower_tolerance": 0,
+                                "upper_bound": "Manage",
+                                "upper_tolerance": 0,
+                                "mode": "Contains"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "exclusive": {
+          "classes": {
+            "id": 1734356000003,
+            "priority": 1,
+            "name": "Class Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000003,
+            "priority": 1,
+            "name": "Class Characteristics Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000003,
+            "priority": 1,
+            "name": "Horizontal Pattern Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000003,
+            "priority": 1,
+            "name": "Strata Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": []
+        },
+        "metadata": {
+          "created": "2025-12-16T13:00:00.000Z",
+          "updated": "2025-12-16T15:04:28.277Z",
+          "author": "System",
+          "notes": "Other land - cropland: Growth forms (herbaceous and woody) that are cultivated and managed"
+        }
+      },
+      {
+        "id": 1734356000004,
+        "name": "Other Land - Shifting Cultivation Classification",
+        "priority": 1,
+        "syntax": "Mit'Herbaceous Growth Forms, cultivated and managed & Mit'Woody Growth Forms, natural or semi-natural",
+        "description": "Mandatory inclusive temporal Herbaceous Growth Forms, cultivated and managed\nAND\nMandatory inclusive temporal Woody Growth Forms, natural or semi-natural",
+        "assignment": {
+          "class_id": 5,
+          "class_name": "Other Land - Shifting Cultivation",
+          "class_map_code": "5",
+          "class_description": ""
+        },
+        "inclusive": {
+          "classes": {
+            "id": 1734356000004,
+            "priority": 1,
+            "name": "Class Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000004,
+            "priority": 1,
+            "name": "Class Characteristics Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000004,
+            "priority": 1,
+            "name": "Horizontal Pattern Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000004,
+            "priority": 1,
+            "name": "Strata Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": [
+            {
+              "id": 1734356000401,
+              "priority": 1,
+              "element": 1007,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1734356000401,
+                    "name": "Herbaceous Growth Forms Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [
+                          {
+                            "object": "elementPresenceType",
+                            "lower_bound": "Temporal",
+                            "lower_tolerance": 0,
+                            "upper_bound": "Temporal",
+                            "upper_tolerance": 0,
+                            "mode": "Contains"
+                          }
+                        ],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": [
+                  {
+                    "id": 1734356000402,
+                    "name": "Vegetation Artificiality Characteristic Rules",
+                    "priority": 1,
+                    "characteristicID": 100020,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": [
+                          {
+                            "vegetationArtificiality": [
+                              {
+                                "object": "vegetationArtificiality",
+                                "lower_bound": "Cultivated",
+                                "lower_tolerance": 0,
+                                "upper_bound": "Cultivated",
+                                "upper_tolerance": 0,
+                                "mode": "Contains"
+                              },
+                              {
+                                "object": "vegetationArtificiality",
+                                "lower_bound": "Manage",
+                                "lower_tolerance": 0,
+                                "upper_bound": "Manage",
+                                "upper_tolerance": 0,
+                                "mode": "Contains"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1765897825230,
+              "priority": 1,
+              "element": 1004,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1765897825230,
+                    "name": "Woody Growth Forms Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [
+                          {
+                            "object": "elementPresenceType",
+                            "lower_bound": "Temporal",
+                            "lower_tolerance": 0,
+                            "upper_bound": "Temporal",
+                            "upper_tolerance": 0,
+                            "mode": "Contains"
+                          }
+                        ],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": [
+                  {
+                    "id": 1765897848198,
+                    "name": "Vegetation Artificiality Characteristic Rules",
+                    "priority": 1,
+                    "characteristicID": 100020,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [
+                          {
+                            "object": "vegetationArtificiality",
+                            "lower_bound": "Natural",
+                            "lower_tolerance": 0,
+                            "upper_bound": "Natural",
+                            "upper_tolerance": 0,
+                            "mode": "Contains"
+                          }
+                        ],
+                        "or": []
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "exclusive": {
+          "classes": {
+            "id": 1734356000004,
+            "priority": 1,
+            "name": "Class Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000004,
+            "priority": 1,
+            "name": "Class Characteristics Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000004,
+            "priority": 1,
+            "name": "Horizontal Pattern Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000004,
+            "priority": 1,
+            "name": "Strata Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": []
+        },
+        "metadata": {
+          "created": "2025-12-16T13:00:00.000Z",
+          "updated": "2025-12-16T15:11:07.232Z",
+          "author": "System",
+          "notes": "Other land - shifting cultivation: Herbaceous growth forms cultivated and managed in temporal sequence with woody growth forms natural seminatural"
+        }
+      },
+      {
+        "id": 1734356000005,
+        "name": "Other Land - Settlements Classification",
+        "priority": 1,
+        "syntax": "Ms'Artificial Surfaces",
+        "description": "Mandatory standard Artificial Surfaces",
+        "assignment": {
+          "class_id": 6,
+          "class_name": "Other Land - Settlements",
+          "class_map_code": "6",
+          "class_description": ""
+        },
+        "inclusive": {
+          "classes": {
+            "id": 1734356000005,
+            "priority": 1,
+            "name": "Class Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000005,
+            "priority": 1,
+            "name": "Class Characteristics Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000005,
+            "priority": 1,
+            "name": "Horizontal Pattern Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000005,
+            "priority": 1,
+            "name": "Strata Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": [
+            {
+              "id": 1765898177188,
+              "priority": 1,
+              "element": 1014,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1765898177188,
+                    "name": "Artificial Surfaces Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": []
+              }
+            }
+          ]
+        },
+        "exclusive": {
+          "classes": {
+            "id": 1734356000005,
+            "priority": 1,
+            "name": "Class Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000005,
+            "priority": 1,
+            "name": "Class Characteristics Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000005,
+            "priority": 1,
+            "name": "Horizontal Pattern Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000005,
+            "priority": 1,
+            "name": "Strata Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": []
+        },
+        "metadata": {
+          "created": "2025-12-16T13:00:00.000Z",
+          "updated": "2025-12-16T15:16:30.377Z",
+          "author": "System",
+          "notes": "Other land - settlements: Artificial surfaces including built-up areas and urban land"
+        }
+      },
+      {
+        "id": 1734356000006,
+        "name": "Other Land - Grasslands Classification",
+        "priority": 6,
+        "syntax": "Ms'Herbaceous Growth Forms, natural or semi-natural",
+        "description": "Mandatory standard Herbaceous Growth Forms, natural or semi-natural",
+        "assignment": {
+          "class_id": 7,
+          "class_name": "Other Land - Grasslands",
+          "class_map_code": "7",
+          "class_description": ""
+        },
+        "inclusive": {
+          "classes": {
+            "id": 1734356000006,
+            "priority": 1,
+            "name": "Class Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000006,
+            "priority": 1,
+            "name": "Class Characteristics Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000006,
+            "priority": 1,
+            "name": "Horizontal Pattern Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000006,
+            "priority": 1,
+            "name": "Strata Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": [
+            {
+              "id": 1734356000601,
+              "priority": 1,
+              "element": 1007,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1734356000601,
+                    "name": "Herbaceous Growth Forms Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": [
+                  {
+                    "id": 1734356000602,
+                    "name": "Vegetation Artificiality Characteristic Rules",
+                    "priority": 1,
+                    "characteristicID": 100020,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": [
+                          {
+                            "vegetationArtificiality": [
+                              {
+                                "object": "vegetationArtificiality",
+                                "lower_bound": "Natural",
+                                "lower_tolerance": 0,
+                                "upper_bound": "Natural",
+                                "upper_tolerance": 0,
+                                "mode": "Contains"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "exclusive": {
+          "classes": {
+            "id": 1734356000006,
+            "priority": 1,
+            "name": "Class Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000006,
+            "priority": 1,
+            "name": "Class Characteristics Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000006,
+            "priority": 1,
+            "name": "Horizontal Pattern Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000006,
+            "priority": 1,
+            "name": "Strata Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": []
+        },
+        "metadata": {
+          "created": "2025-12-16T13:00:00.000Z",
+          "updated": "2025-12-16T15:17:46.544Z",
+          "author": "System",
+          "notes": "Other land - grasslands: Herbaceous growth forms, natural seminatural, may include woody growth forms with optional cover"
+        }
+      },
+      {
+        "id": 1734356000007,
+        "name": "Other Land - Bare Soil Classification",
+        "priority": 1,
+        "syntax": "Ms'Natural Surfaces OR Ms'Ice",
+        "description": "Mandatory standard Natural Surfaces\nOR\nMandatory standard Ice",
+        "assignment": {
+          "class_id": 8,
+          "class_name": "Other Land - Bare Soil",
+          "class_map_code": "8",
+          "class_description": ""
+        },
+        "inclusive": {
+          "classes": {
+            "id": 1734356000007,
+            "priority": 1,
+            "name": "Class Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000007,
+            "priority": 1,
+            "name": "Class Characteristics Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000007,
+            "priority": 1,
+            "name": "Horizontal Pattern Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000007,
+            "priority": 1,
+            "name": "Strata Inclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": [
+            {
+              "id": 1765898395150,
+              "priority": 1,
+              "element": 1024,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1765898395150,
+                    "name": "Natural Surfaces Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": []
+              }
+            },
+            {
+              "id": 1765898406056,
+              "priority": 1,
+              "element": 1039,
+              "ruleDefinition": {
+                "properties": [
+                  {
+                    "id": 1765898406056,
+                    "name": "Ice Element Property Rules",
+                    "priority": 1,
+                    "rules": {
+                      "properties": {
+                        "and": [],
+                        "or": []
+                      },
+                      "characteristics": {
+                        "and": [],
+                        "or": []
+                      }
+                    }
+                  }
+                ],
+                "characteristics": []
+              }
+            }
+          ]
+        },
+        "exclusive": {
+          "classes": {
+            "id": 1734356000007,
+            "priority": 1,
+            "name": "Class Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "classCharacteristics": {
+            "id": 1734356000007,
+            "priority": 1,
+            "name": "Class Characteristics Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "horizontalPatterns": {
+            "id": 1734356000007,
+            "priority": 1,
+            "name": "Horizontal Pattern Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "strata": {
+            "id": 1734356000007,
+            "priority": 1,
+            "name": "Strata Exclusion",
+            "rules": {
+              "properties": {
+                "and": [],
+                "or": []
+              },
+              "characteristics": {
+                "and": [],
+                "or": []
+              }
+            }
+          },
+          "elements": []
+        },
+        "metadata": {
+          "created": "2025-12-16T13:00:00.000Z",
+          "updated": "2025-12-16T15:20:06.057Z",
+          "author": "System",
+          "notes": "Other land - bare soil: Natural surfaces without vegetation or ice coverage"
+        }
+      }
+    ],
+    "classes": [
+      {
+        "class_id": 1,
+        "class_name": "Forest",
+        "class_map_code": "1",
+        "class_description": ""
+      },
+      {
+        "class_id": 2,
+        "class_name": "Other Wooded Land",
+        "class_map_code": "2",
+        "class_description": ""
+      },
+      {
+        "class_id": 4,
+        "class_name": "Other Land - Cropland",
+        "class_map_code": "4",
+        "class_description": ""
+      },
+      {
+        "class_id": 5,
+        "class_name": "Other Land - Shifting Cultivation",
+        "class_map_code": "5",
+        "class_description": ""
+      },
+      {
+        "class_id": 6,
+        "class_name": "Other Land - Settlements",
+        "class_map_code": "6",
+        "class_description": ""
+      },
+      {
+        "class_id": 7,
+        "class_name": "Other Land - Grasslands",
+        "class_map_code": "7",
+        "class_description": ""
+      },
+      {
+        "class_id": 8,
+        "class_name": "Other Land - Bare Soil",
+        "class_map_code": "8",
+        "class_description": ""
+      }
+    ],
+    "validation": {
+      "version": "1.0",
+      "requiredElements": [],
+      "requiredCharacteristics": [],
+      "validPresenceTypes": [
+        "Fixed",
+        "Mandatory",
+        "Optional"
+      ],
+      "coverageRules": {
+        "min": 0,
+        "max": 100
+      }
+    }
+  }
+}

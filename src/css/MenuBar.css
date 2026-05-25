@@ -1,0 +1,30 @@
+.p-menubar{
+    padding: 0;
+    margin: 0;
+}
+
+.p-menu-list{
+    padding: 0;
+    margin: 0;
+}
+
+.p-menuitem{
+    padding: 0;
+    margin: 0;
+}
+
+.p-menuitem-text{
+    font-size: x-small;
+    padding: 0;
+    margin: 0;
+}
+
+.p-menuitem-icon{
+    padding: 1;
+    margin: 1;
+}
+
+.p-submenu-icon{
+    padding: 1;
+    margin: 1;
+}

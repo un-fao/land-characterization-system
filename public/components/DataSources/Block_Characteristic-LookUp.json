@@ -1,0 +1,1049 @@
+{
+        "LC_Block-LC_Characteristic": [
+            {
+                "block_id": 1036,
+                "characteristic_id": 100001,
+                "description": "Water Body & Associated Surfaces - Water Salinity"
+            },
+            {
+                "block_id": 1036,
+                "characteristic_id": 100002,
+                "description": "Water Body & Associated Surfaces - Water Chemistry"
+            },
+            {
+                "block_id": 1036,
+                "characteristic_id": 100003,
+                "description": "Water Body & Associated Surfaces - Artificiality"
+            },
+            {
+                "block_id": 1036,
+                "characteristic_id": 100004,
+                "description": "Water Body & Associated Surfaces - Aquaculture"
+            },
+            {
+                "block_id": 1036,
+                "characteristic_id": 100005,
+                "description": "Water Body & Associated Surfaces - Snow Category"
+            },
+            {
+                "block_id": 1036,
+                "characteristic_id": 100006,
+                "description": "Water Body & Associated Surfaces - Ice Category"
+            },
+            {
+                "block_id": 1037,
+                "characteristic_id": 100001,
+                "description": "Water Body - Water Salinity"
+            },
+            {
+                "block_id": 1037,
+                "characteristic_id": 100002,
+                "description": "Water Body - Water Chemistry"
+            },
+            {
+                "block_id": 1037,
+                "characteristic_id": 100003,
+                "description": "Water Body - Artificiality"
+            },
+            {
+                "block_id": 1038,
+                "characteristic_id": 100005,
+                "description": "Snow - Snow Category"
+            },
+            {
+                "block_id": 1039,
+                "characteristic_id": 100006,
+                "description": "Ice - Ice Category"
+            },
+            {
+                "block_id": 1040,
+                "characteristic_id": 100006,
+                "description": "Terrestrial Ice - Ice Category"
+            },
+            {
+                "block_id": 1041,
+                "characteristic_id": 100006,
+                "description": "Floating Ice - Ice Category"
+            },
+            {
+                "block_id": 1014,
+                "characteristic_id": 100007,
+                "description": "Artificial Surfaces - Construction Status"
+            },
+            {
+                "block_id": 1014,
+                "characteristic_id": 100008,
+                "description": "Artificial Surfaces - Artificial Surface Type"
+            },
+            {
+                "block_id": 1014,
+                "characteristic_id": 100009,
+                "description": "Artificial Surfaces - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1014,
+                "characteristic_id": 100023,
+                "description": "Artificial Surfaces - Construction Use"
+            },
+            {
+                "block_id": 1015,
+                "characteristic_id": 100007,
+                "description": "Non-Built-Up Surface - Construction Status"
+            },
+            {
+                "block_id": 1015,
+                "characteristic_id": 100008,
+                "description": "Non-Built-Up Surface - Artificial Surface Type"
+            },
+            {
+                "block_id": 1015,
+                "characteristic_id": 100009,
+                "description": "Non-Built-Up Surface - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1015,
+                "characteristic_id": 100023,
+                "description": "Non-Built-Up Surface - Construction Use"
+            },
+            {
+                "block_id": 1016,
+                "characteristic_id": 100007,
+                "description": "Dump Site - Construction Status"
+            },
+            {
+                "block_id": 1016,
+                "characteristic_id": 100008,
+                "description": "Dump Site - Artificial Surface Type"
+            },
+            {
+                "block_id": 1016,
+                "characteristic_id": 100009,
+                "description": "Dump Site - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1016,
+                "characteristic_id": 100023,
+                "description": "Dump Site - Construction Use"
+            },
+            {
+                "block_id": 1017,
+                "characteristic_id": 100007,
+                "description": "Extraction - Construction Status"
+            },
+            {
+                "block_id": 1017,
+                "characteristic_id": 100008,
+                "description": "Extraction - Artificial Surface Type"
+            },
+            {
+                "block_id": 1017,
+                "characteristic_id": 100009,
+                "description": "Extraction - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1017,
+                "characteristic_id": 100023,
+                "description": "Extraction - Construction Use"
+            },
+            {
+                "block_id": 1018,
+                "characteristic_id": 100007,
+                "description": "Built-Up Surface - Construction Status"
+            },
+            {
+                "block_id": 1018,
+                "characteristic_id": 100008,
+                "description": "Built-Up Surface - Artificial Surface Type"
+            },
+            {
+                "block_id": 1018,
+                "characteristic_id": 100009,
+                "description": "Built-Up Surface - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1018,
+                "characteristic_id": 100023,
+                "description": "Built-Up Surface - Construction Use"
+            },
+            {
+                "block_id": 1023,
+                "characteristic_id": 100007,
+                "description": "Linear Surface - Construction Status"
+            },
+            {
+                "block_id": 1023,
+                "characteristic_id": 100008,
+                "description": "Linear Surface - Artificial Surface Type"
+            },
+            {
+                "block_id": 1023,
+                "characteristic_id": 100009,
+                "description": "Linear Surface - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1023,
+                "characteristic_id": 100023,
+                "description": "Linear Surface - Construction Use"
+            },
+            {
+                "block_id": 1019,
+                "characteristic_id": 100007,
+                "description": "Non-Linear Surface - Construction Status"
+            },
+            {
+                "block_id": 1019,
+                "characteristic_id": 100008,
+                "description": "Non-Linear Surface - Artificial Surface Type"
+            },
+            {
+                "block_id": 1019,
+                "characteristic_id": 100009,
+                "description": "Non-Linear Surface - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1019,
+                "characteristic_id": 100023,
+                "description": "Non-Linear Surface - Construction Use"
+            },
+            {
+                "block_id": 1020,
+                "characteristic_id": 100007,
+                "description": "Building - Construction Status"
+            },
+            {
+                "block_id": 1020,
+                "characteristic_id": 100008,
+                "description": "Building - Artificial Surface Type"
+            },
+            {
+                "block_id": 1020,
+                "characteristic_id": 100009,
+                "description": "Building - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1020,
+                "characteristic_id": 100023,
+                "description": "Building - Construction Use"
+            },
+            {
+                "block_id": 1021,
+                "characteristic_id": 100007,
+                "description": "Other Construction - Construction Status"
+            },
+            {
+                "block_id": 1021,
+                "characteristic_id": 100008,
+                "description": "Other Construction - Artificial Surface Type"
+            },
+            {
+                "block_id": 1021,
+                "characteristic_id": 100009,
+                "description": "Other Construction - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1021,
+                "characteristic_id": 100023,
+                "description": "Other Construction - Construction Use"
+            },
+            {
+                "block_id": 1022,
+                "characteristic_id": 100007,
+                "description": "Other Artificial Surface - Construction Status"
+            },
+            {
+                "block_id": 1022,
+                "characteristic_id": 100008,
+                "description": "Other Artificial Surface - Artificial Surface Type"
+            },
+            {
+                "block_id": 1022,
+                "characteristic_id": 100009,
+                "description": "Other Artificial Surface - Artificial Surface Damage"
+            },
+            {
+                "block_id": 1022,
+                "characteristic_id": 100023,
+                "description": "Other Artificial Surface - Construction Use"
+            },
+            {
+                "block_id": 1024,
+                "characteristic_id": 100022,
+                "description": "Natural Surfaces - Permafrost"
+            },
+            {
+                "block_id": 1025,
+                "characteristic_id": 100022,
+                "description": "Rocks Surface - Permafrost"
+            },
+            {
+                "block_id": 1026,
+                "characteristic_id": 100022,
+                "description": "Bare Rock - Permafrost"
+            },
+            {
+                "block_id": 1027,
+                "characteristic_id": 100022,
+                "description": "Hardpan - Permafrost"
+            },
+            {
+                "block_id": 1028,
+                "characteristic_id": 100022,
+                "description": "Soils & Sand Deposits Surface - Permafrost"
+            },
+            {
+                "block_id": 1029,
+                "characteristic_id": 100022,
+                "description": "Bare Soil - Permafrost"
+            },
+            {
+                "block_id": 1030,
+                "characteristic_id": 100022,
+                "description": "Coarse Mineral Fragments - Permafrost"
+            },
+            {
+                "block_id": 1033,
+                "characteristic_id": 100022,
+                "description": "Deposits - Permafrost"
+            },
+            {
+                "block_id": 1034,
+                "characteristic_id": 100022,
+                "description": "Inorganic Deposits - Permafrost"
+            },
+            {
+                "block_id": 1035,
+                "characteristic_id": 100022,
+                "description": "Organic Deposits - Permafrost"
+            },
+            {
+                "block_id": 1031,
+                "characteristic_id": 100022,
+                "description": "Loose & Shifting Sand - Permafrost"
+            },
+            {
+                "block_id": 1032,
+                "characteristic_id": 100022,
+                "description": "Dune - Permafrost"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100010,
+                "description": "Vegetation - Floristic Aspects"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100011,
+                "description": "Vegetation - Allometric Measurements"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100012,
+                "description": "Vegetation - Growth Form Age"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100013,
+                "description": "Vegetation - Burnt Status"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100014,
+                "description": "Vegetation - Dead Status"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100015,
+                "description": "Vegetation - Vegetation Damage"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100016,
+                "description": "Vegetation - Water Stress"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100017,
+                "description": "Vegetation - Growth Form Illness"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100018,
+                "description": "Vegetation - Grazed"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100019,
+                "description": "Vegetation - Mowed"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100020,
+                "description": "Vegetation - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1001,
+                "characteristic_id": 100021,
+                "description": "Vegetation - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100010,
+                "description": "Growth Forms - Floristic Aspects"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100011,
+                "description": "Growth Forms - Allometric Measurements"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100012,
+                "description": "Growth Forms - Growth Form Age"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100013,
+                "description": "Growth Forms - Burnt Status"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100014,
+                "description": "Growth Forms - Dead Status"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100015,
+                "description": "Growth Forms - Vegetation Damage"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100016,
+                "description": "Growth Forms - Water Stress"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100017,
+                "description": "Growth Forms - Growth Form Illness"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100018,
+                "description": "Growth Forms - Grazed"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100019,
+                "description": "Growth Forms - Mowed"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100020,
+                "description": "Growth Forms - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1003,
+                "characteristic_id": 100021,
+                "description": "Growth Forms - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100010,
+                "description": "Woody Growth Forms - Floristic Aspects"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100011,
+                "description": "Woody Growth Forms - Allometric Measurements"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100012,
+                "description": "Woody Growth Forms - Growth Form Age"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100013,
+                "description": "Woody Growth Forms - Burnt Status"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100014,
+                "description": "Woody Growth Forms - Dead Status"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100015,
+                "description": "Woody Growth Forms - Vegetation Damage"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100016,
+                "description": "Woody Growth Forms - Water Stress"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100017,
+                "description": "Woody Growth Forms - Growth Form Illness"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100018,
+                "description": "Woody Growth Forms - Grazed"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100019,
+                "description": "Woody Growth Forms - Mowed"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100020,
+                "description": "Woody Growth Forms - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1004,
+                "characteristic_id": 100021,
+                "description": "Woody Growth Forms - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100010,
+                "description": "Trees - Floristic Aspects"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100011,
+                "description": "Trees - Allometric Measurements"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100012,
+                "description": "Trees - Growth Form Age"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100013,
+                "description": "Trees - Burnt Status"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100014,
+                "description": "Trees - Dead Status"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100015,
+                "description": "Trees - Vegetation Damage"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100016,
+                "description": "Trees - Water Stress"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100017,
+                "description": "Trees - Growth Form Illness"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100018,
+                "description": "Trees - Grazed"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100019,
+                "description": "Trees - Mowed"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100020,
+                "description": "Trees - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1005,
+                "characteristic_id": 100021,
+                "description": "Trees - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100010,
+                "description": "Shrubs - Floristic Aspects"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100011,
+                "description": "Shrubs - Allometric Measurements"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100012,
+                "description": "Shrubs - Growth Form Age"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100013,
+                "description": "Shrubs - Burnt Status"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100014,
+                "description": "Shrubs - Dead Status"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100015,
+                "description": "Shrubs - Vegetation Damage"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100016,
+                "description": "Shrubs - Water Stress"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100017,
+                "description": "Shrubs - Growth Form Illness"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100018,
+                "description": "Shrubs - Grazed"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100019,
+                "description": "Shrubs - Mowed"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100020,
+                "description": "Shrubs - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1006,
+                "characteristic_id": 100021,
+                "description": "Shrubs - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100010,
+                "description": "Herbaceous Growth Forms - Floristic Aspects"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100011,
+                "description": "Herbaceous Growth Forms - Allometric Measurements"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100012,
+                "description": "Herbaceous Growth Forms - Growth Form Age"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100013,
+                "description": "Herbaceous Growth Forms - Burnt Status"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100014,
+                "description": "Herbaceous Growth Forms - Dead Status"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100015,
+                "description": "Herbaceous Growth Forms - Vegetation Damage"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100016,
+                "description": "Herbaceous Growth Forms - Water Stress"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100017,
+                "description": "Herbaceous Growth Forms - Growth Form Illness"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100018,
+                "description": "Herbaceous Growth Forms - Grazed"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100019,
+                "description": "Herbaceous Growth Forms - Mowed"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100020,
+                "description": "Herbaceous Growth Forms - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1007,
+                "characteristic_id": 100021,
+                "description": "Herbaceous Growth Forms - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100010,
+                "description": "Forbs - Floristic Aspects"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100011,
+                "description": "Forbs - Allometric Measurements"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100012,
+                "description": "Forbs - Growth Form Age"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100013,
+                "description": "Forbs - Burnt Status"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100014,
+                "description": "Forbs - Dead Status"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100015,
+                "description": "Forbs - Vegetation Damage"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100016,
+                "description": "Forbs - Water Stress"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100017,
+                "description": "Forbs - Growth Form Illness"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100018,
+                "description": "Forbs - Grazed"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100019,
+                "description": "Forbs - Mowed"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100020,
+                "description": "Forbs - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1008,
+                "characteristic_id": 100021,
+                "description": "Forbs - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100010,
+                "description": "Graminoids - Floristic Aspects"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100011,
+                "description": "Graminoids - Allometric Measurements"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100012,
+                "description": "Graminoids - Growth Form Age"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100013,
+                "description": "Graminoids - Burnt Status"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100014,
+                "description": "Graminoids - Dead Status"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100015,
+                "description": "Graminoids - Vegetation Damage"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100016,
+                "description": "Graminoids - Water Stress"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100017,
+                "description": "Graminoids - Growth Form Illness"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100018,
+                "description": "Graminoids - Grazed"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100019,
+                "description": "Graminoids - Mowed"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100020,
+                "description": "Graminoids - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1009,
+                "characteristic_id": 100021,
+                "description": "Graminoids - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100010,
+                "description": "Lichen & Mosses - Floristic Aspects"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100011,
+                "description": "Lichen & Mosses - Allometric Measurements"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100012,
+                "description": "Lichen & Mosses - Growth Form Age"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100013,
+                "description": "Lichen & Mosses - Burnt Status"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100014,
+                "description": "Lichen & Mosses - Dead Status"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100015,
+                "description": "Lichen & Mosses - Vegetation Damage"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100016,
+                "description": "Lichen & Mosses - Water Stress"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100017,
+                "description": "Lichen & Mosses - Growth Form Illness"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100018,
+                "description": "Lichen & Mosses - Grazed"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100019,
+                "description": "Lichen & Mosses - Mowed"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100020,
+                "description": "Lichen & Mosses - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1010,
+                "characteristic_id": 100021,
+                "description": "Lichen & Mosses - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100010,
+                "description": "Lichen - Floristic Aspects"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100011,
+                "description": "Lichen - Allometric Measurements"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100012,
+                "description": "Lichen - Growth Form Age"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100013,
+                "description": "Lichen - Burnt Status"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100014,
+                "description": "Lichen - Dead Status"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100015,
+                "description": "Lichen - Vegetation Damage"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100016,
+                "description": "Lichen - Water Stress"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100017,
+                "description": "Lichen - Growth Form Illness"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100018,
+                "description": "Lichen - Grazed"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100019,
+                "description": "Lichen - Mowed"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100020,
+                "description": "Lichen - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1011,
+                "characteristic_id": 100021,
+                "description": "Lichen - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100010,
+                "description": "Mosses - Floristic Aspects"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100011,
+                "description": "Mosses - Allometric Measurements"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100012,
+                "description": "Mosses - Growth Form Age"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100013,
+                "description": "Mosses - Burnt Status"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100014,
+                "description": "Mosses - Dead Status"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100015,
+                "description": "Mosses - Vegetation Damage"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100016,
+                "description": "Mosses - Water Stress"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100017,
+                "description": "Mosses - Growth Form Illness"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100018,
+                "description": "Mosses - Grazed"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100019,
+                "description": "Mosses - Mowed"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100020,
+                "description": "Mosses - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1012,
+                "characteristic_id": 100021,
+                "description": "Mosses - Cultivated & Managed Vegetation"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100010,
+                "description": "Algae - Floristic Aspects"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100011,
+                "description": "Algae - Allometric Measurements"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100012,
+                "description": "Algae - Growth Form Age"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100013,
+                "description": "Algae - Burnt Status"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100014,
+                "description": "Algae - Dead Status"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100015,
+                "description": "Algae - Vegetation Damage"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100016,
+                "description": "Algae - Water Stress"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100017,
+                "description": "Algae - Growth Form Illness"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100018,
+                "description": "Algae - Grazed"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100019,
+                "description": "Algae - Mowed"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100020,
+                "description": "Algae - Vegetation Artificiality"
+            },
+            {
+                "block_id": 1013,
+                "characteristic_id": 100021,
+                "description": "Algae - Cultivated & Managed Vegetation"
+            }
+        ]
+    }
