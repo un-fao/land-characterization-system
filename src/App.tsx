@@ -17,7 +17,7 @@ export const searchObjKeyVal = (objects,searchKey,searchVal)=>{
     const regexSearch = (searchSubject) => {
       if(searchSubject !== null){
         let search = searchVal.replace(/[^\w\s]/gi, '');
-        let regexObj = new RegExp('\^'+search+'\$', "i");
+        let regexObj = new RegExp('^'+search+'$', "i");
         if (regexObj.test(searchSubject.replace(/[^\w\s]/gi, '')))
           return true;
       }
