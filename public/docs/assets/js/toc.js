@@ -11,7 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const id = h.id || h.textContent.trim().toLowerCase().replace(/\s+/g,'-').replace(/[^a-z0-9\-]/g,'');
     h.id = id;
     const li = document.createElement('li');
-    li.innerHTML = `<a href="#${id}">${h.textContent}</a>`;
+    const a = document.createElement('a');
+    a.setAttribute('href', `#${id}`);
+    a.textContent = h.textContent;
+    li.appendChild(a);
     list.appendChild(li);
   });
   toc.appendChild(list);
