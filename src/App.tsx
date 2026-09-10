@@ -32,7 +32,7 @@ export const searchObjKeyVal = (objects,searchKey,searchVal)=>{
 }
 export const fuzzySearchObjKeyVal = (objects,searchKey,searchVal)=>{
   const regexSearch = (searchSubject) => {
-    let regexObj = new RegExp(searchVal+'\(s\)\?', "i");
+    let regexObj = new RegExp(searchVal+'\\(s\\)\\?', "i");
     if (regexObj.test(searchSubject))      
       return true;    
   };
