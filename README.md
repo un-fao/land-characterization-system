@@ -78,11 +78,11 @@ The application loads its reference data from JSON files in `public/components/D
 
 ## Standards & References
 
-- [ISO 19144-2 — Land Cover MetaLanguage (LCML)](https://www.iso.org/standard/81259.html)
+- [ISO 19144-2 — Land Cover MetaLanguage (LCML)](https://openknowledge.fao.org/items/2859a0af-5fb5-4503-bff2-4319a81ebef1)
 - [FAO Land Cover Classification System (LCCS)](http://www.geovis.net/Downloads.htm)
-- [FAO Land Cover Toolbox](https://www.fao.org/land-water/land/land-governance/land-resources-planning-toolbox/category/details/en/c/1036361/)
+- [FAO Land Cover Toolbox](https://www.fao.org/geospatial/data-and-tools/tools/land-cover-toolbox/en)
 - [ISO/TC 211 Advisory Group 13 on Land Cover and Land Use](https://www.fao.org/geospatial/events/events-detail/TC211-Advisory-Group-13-Land-Cover-Land-Use/en)
-- [International Standards Organization (ISO/TC 211)](https://www.iso.org/committee/54904.html)
+- [International Standards Organization (ISO/TC 211)](https://committee.iso.org/sites/tc211/home/about/advisory-groups.html)
 
 ---
 
